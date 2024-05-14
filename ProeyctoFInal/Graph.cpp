@@ -1,41 +1,33 @@
+// Graph.cpp
 #include "Graph.h"
-#include <iostream>
-
-using namespace std;
+#include <queue>
 
 Graph::Graph(int vertices) : numVertices(vertices), adjList(vertices) {}
 
-void Graph::addEdge(int start, int end, int weight) {
-    adjList[start].push_back(make_pair(end, weight));
+void Graph::addEdge(int src, int dest, int weight) {
+    adjList[src].push_back(std::make_pair(dest, weight));
 }
 
-void Graph::dijkstra(int startVertex) {
-    vector<int> distances(numVertices, numeric_limits<int>::max());
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> priorityQueue;
+std::vector<int> Graph::dijkstra(int source) {
+    std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<std::pair<int, int>>> pq;
+    std::vector<int> dist(numVertices, std::numeric_limits<int>::max());
 
-    distances[startVertex] = 0;
-    priorityQueue.push(make_pair(0, startVertex));
+    pq.push(std::make_pair(0, source));
+    dist[source] = 0;
 
-    while (!priorityQueue.empty()) {
-        int u = priorityQueue.top().second;
-        priorityQueue.pop();
+    while (!pq.empty()) {
+        int u = pq.top().second;
+        pq.pop();
 
-        for (auto& i : adjList[u]) {
-            int v = i.first;
-            int weight = i.second;
+        for (auto& p : adjList[u]) {
+            int v = p.first;
+            int weight = p.second;
 
-            if (distances[v] > distances[u] + weight) {
-                distances[v] = distances[u] + weight;
-                priorityQueue.push(make_pair(distances[v], v));
+            if (dist[v] > dist[u] + weight) {
+                dist[v] = dist[u] + weight;
+                pq.push(std::make_pair(dist[v], v));
             }
         }
     }
-
-
-
-
-
-    cout << "Vertex Distance from Source\n";
-    for (int i = 0; i < numVertices; i++)
-        cout << i << "\t\t" << distances[i] << "\n";
+    return dist;
 }
