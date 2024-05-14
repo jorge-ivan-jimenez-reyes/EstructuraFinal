@@ -543,35 +543,30 @@
       {"origen": 270, "destino": 271, "tiempo": 2},
       {"origen": 271, "destino": 272, "tiempo": 2}
     ],
-    {
+    
       "transferencias": [
       
-        {"origen": 9, "destino": 102, "tiempo_extra": 5},  // Buenavista L1 a L3
-        {"origen": 20, "destino": 75, "tiempo_extra": 5},  // Nuevo León L1 a L2
+        {"origen": 9, "destino": 102, "tiempo_extra": 5},  
+        {"origen": 20, "destino": 75, "tiempo_extra": 5},  
     
-        // Transferencias desde la Línea 2
-        {"origen": 75, "destino": 20, "tiempo_extra": 5},  // Nuevo León L2 a L1
-        {"origen": 72, "destino": 113, "tiempo_extra": 5}, // Etiopía L2 a L3
+        {"origen": 75, "destino": 20, "tiempo_extra": 5},  
+        {"origen": 72, "destino": 113, "tiempo_extra": 5}, 
     
-        // Transferencias desde la Línea 3
-        {"origen": 113, "destino": 72, "tiempo_extra": 5},  // Etiopía L3 a L2
-        {"origen": 102, "destino": 9, "tiempo_extra": 5},   // Buenavista L3 a L1
+        {"origen": 113, "destino": 72, "tiempo_extra": 5},  
+        {"origen": 102, "destino": 9, "tiempo_extra": 5},  
     
-        // Transferencias desde la Línea 4
-        {"origen": 102, "destino": 119, "tiempo_extra": 5}, // Buenavista L4 a L1
-        {"origen": 119, "destino": 102, "tiempo_extra": 5}, // Buenavista L1 a L4
+      
+        {"origen": 102, "destino": 119, "tiempo_extra": 5}, 
+        {"origen": 119, "destino": 102, "tiempo_extra": 5}, 
+
+        {"origen": 173, "destino": 102, "tiempo_extra": 5}, 
+        {"origen": 102, "destino": 173, "tiempo_extra": 5}, 
+        {"origen": 220, "destino": 20, "tiempo_extra": 5},  
+        {"origen": 20, "destino": 220, "tiempo_extra": 5}, 
     
-        // Transferencias desde la Línea 5
-        {"origen": 173, "destino": 102, "tiempo_extra": 5}, // San Lázaro L5 a L1
-        {"origen": 102, "destino": 173, "tiempo_extra": 5}, // San Lázaro L1 a L5
-    
-        // Transferencias desde la Línea 6
-        {"origen": 220, "destino": 20, "tiempo_extra": 5},  // Deportivo 18 de Marzo L6 a L1
-        {"origen": 20, "destino": 220, "tiempo_extra": 5},  // Deportivo 18 de Marzo L1 a L6
-    
-        // Transferencias desde la Línea 7
-        {"origen": 247, "destino": 249, "tiempo_extra": 5}, // Chapultepec L7 a L1
-        {"origen": 249, "destino": 247, "tiempo_extra": 5}  // El Ángel L1 a L7
+        
+        {"origen": 247, "destino": 249, "tiempo_extra": 5}, 
+        {"origen": 249, "destino": 247, "tiempo_extra": 5}  
       ]
     }
     
