@@ -1,18 +1,20 @@
 #include "Graph.h"
 #include <iostream>
 
+using namespace std;
+
 Graph::Graph(int vertices) : numVertices(vertices), adjList(vertices) {}
 
 void Graph::addEdge(int start, int end, int weight) {
-    adjList[start].push_back(std::make_pair(end, weight));
+    adjList[start].push_back(make_pair(end, weight));
 }
 
 void Graph::dijkstra(int startVertex) {
-    std::vector<int> distances(numVertices, std::numeric_limits<int>::max());
-    std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<std::pair<int, int>>> priorityQueue;
+    vector<int> distances(numVertices, numeric_limits<int>::max());
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> priorityQueue;
 
     distances[startVertex] = 0;
-    priorityQueue.push(std::make_pair(0, startVertex));
+    priorityQueue.push(make_pair(0, startVertex));
 
     while (!priorityQueue.empty()) {
         int u = priorityQueue.top().second;
@@ -24,13 +26,16 @@ void Graph::dijkstra(int startVertex) {
 
             if (distances[v] > distances[u] + weight) {
                 distances[v] = distances[u] + weight;
-                priorityQueue.push(std::make_pair(distances[v], v));
+                priorityQueue.push(make_pair(distances[v], v));
             }
         }
     }
 
-    // Output the shortest paths from start vertex.
-    std::cout << "Vertex Distance from Source\n";
+
+
+
+
+    cout << "Vertex Distance from Source\n";
     for (int i = 0; i < numVertices; i++)
-        std::cout << i << "\t\t" << distances[i] << "\n";
+        cout << i << "\t\t" << distances[i] << "\n";
 }
