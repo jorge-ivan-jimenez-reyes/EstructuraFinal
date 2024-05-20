@@ -100,17 +100,18 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\jorge\Desktop\UP_Jorge\ProyectoFinalEstructura\EstructuraFinal\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+        <WarningLevel>Level3</WarningLevel>
+        <SDLCheck>true</SDLCheck>
+        <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+        <ConformanceMode>true</ConformanceMode>
+        <AdditionalIncludeDirectories>C:\Users\jorge\Desktop\UP_Jorge\ProyectoFinalEstructura\EstructuraFinal\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+        <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+        <SubSystem>Console</SubSystem>
+        <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
-  </ItemDefinitionGroup>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
