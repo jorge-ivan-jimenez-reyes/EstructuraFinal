@@ -38,6 +38,7 @@ void loadGraphFromJSON(Graph& g, const std::string& filename) {
         int dest = connection["destino"];
         int time = connection["tiempo"];
         g.addEdge(src - 1, dest - 1, time);
+        g.addEdge(dest - 1, src - 1, time); // Añadir la conexión en ambas direcciones si es bidireccional
     }
 
     if (!j.contains("estaciones") || !j["estaciones"].is_array()) {
@@ -114,8 +115,14 @@ int main() {
         std::vector<int> minDistances = metrobus.dijkstra(sourceID - 1);
         std::vector<int> prev = metrobus.getPrev(); // Assuming you have a method to get the previous nodes
 
-        std::cout << "Minimum distance from " << sourceStationName << " to " << destinationStationName << " is " << minDistances[destinationID - 1] << std::endl;
-        printRoute(prev, destinationID - 1);
+        if (minDistances[destinationID - 1] == std::numeric_limits<int>::max()) {
+            std::cout << "No route found from " << sourceStationName << " to " << destinationStationName << "." << std::endl;
+        }
+        else {
+            std::cout << "Minimum distance from " << sourceStationName << " to " << destinationStationName << " is "
+                << metrobus.distanceToString(minDistances[destinationID - 1]) << " units." << std::endl;
+            printRoute(prev, destinationID - 1);
+        }
     }
 
     return 0;

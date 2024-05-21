@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3300F21-1AB2-4787-83E3-FD2E996E7A4D}|ProeyctoFInal.vcxproj|C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3300F21-1AB2-4787-83E3-FD2E996E7A4D}|ProeyctoFInal.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3300F21-1AB2-4787-83E3-FD2E996E7A4D}|ProeyctoFInal.vcxproj|C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3300F21-1AB2-4787-83E3-FD2E996E7A4D}|ProeyctoFInal.vcxproj|solutionrelative:Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3300F21-1AB2-4787-83E3-FD2E996E7A4D}|ProeyctoFInal.vcxproj|C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3300F21-1AB2-4787-83E3-FD2E996E7A4D}|ProeyctoFInal.vcxproj|solutionrelative:Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 166,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graph.h",
+              "DocumentMoniker": "C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Graph.h",
+              "RelativeDocumentMoniker": "Graph.h",
+              "ToolTip": "C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Graph.h",
+              "RelativeToolTip": "Graph.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-20T00:44:26.437Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Source.cpp",
+              "RelativeDocumentMoniker": "Source.cpp",
+              "ToolTip": "C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T00:44:32.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Graph.cpp",
+              "DocumentMoniker": "C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Graph.cpp",
+              "RelativeDocumentMoniker": "Graph.cpp",
+              "ToolTip": "C:\\Users\\jorge\\Desktop\\UP_Jorge\\ProyectoFinalEstructura\\EstructuraFinal\\ProeyctoFInal\\Graph.cpp",
+              "RelativeToolTip": "Graph.cpp",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T00:44:29.058Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

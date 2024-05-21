@@ -4,6 +4,7 @@
 #include <vector>
 #include <utility>
 #include <limits>
+#include <string>
 
 Graph::Graph(int numVertices) : numVertices(numVertices) {
     adjList.resize(numVertices);
@@ -11,6 +12,7 @@ Graph::Graph(int numVertices) : numVertices(numVertices) {
 
 void Graph::addEdge(int src, int dest, int weight) {
     adjList[src].emplace_back(dest, weight);
+    adjList[dest].emplace_back(src, weight); // Añadir la conexión en ambas direcciones si es bidireccional
 }
 
 std::vector<int> Graph::dijkstra(int src) {
@@ -40,4 +42,11 @@ std::vector<int> Graph::dijkstra(int src) {
 
 const std::vector<int>& Graph::getPrev() const {
     return prev;
+}
+
+std::string Graph::distanceToString(int distance) const {
+    if (distance == std::numeric_limits<int>::max()) {
+        return "No route found";
+    }
+    return std::to_string(distance);
 }
