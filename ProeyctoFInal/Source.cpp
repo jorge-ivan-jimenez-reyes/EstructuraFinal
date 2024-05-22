@@ -6,6 +6,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <limits>
 
 // Map to store station name to ID mapping
 std::unordered_map<std::string, int> stationNameToID;
@@ -38,7 +39,18 @@ void loadGraphFromJSON(Graph& g, const std::string& filename) {
         int dest = connection["destino"];
         int time = connection["tiempo"];
         g.addEdge(src - 1, dest - 1, time);
-        g.addEdge(dest - 1, src - 1, time); // Añadir la conexión en ambas direcciones si es bidireccional
+    }
+
+    if (!j.contains("transferencias") || !j["transferencias"].is_array()) {
+        std::cerr << "Invalid JSON structure: 'transferencias' not found or is not an array" << std::endl;
+        return;
+    }
+
+    for (const auto& transfer : j["transferencias"]) {
+        int src = transfer["origen"];
+        int dest = transfer["destino"];
+        int extraTime = transfer["tiempo_extra"];
+        g.addTransfer(src - 1, dest - 1, extraTime);
     }
 
     if (!j.contains("estaciones") || !j["estaciones"].is_array()) {
@@ -67,19 +79,7 @@ int getStationID(const std::string& name) {
 }
 
 // Function to print the route from the source to destination
-void printRoute(const std::vector<int>& prev, int dest) {
-    if (dest < 0 || dest >= prev.size() || prev[dest] == -1) {
-        std::cerr << "No route found to the destination." << std::endl;
-        return;
-    }
-
-    std::vector<int> path;
-    for (int at = dest; at != -1; at = prev[at]) {
-        path.push_back(at);
-    }
-    std::reverse(path.begin(), path.end());
-
-    std::cout << "Shortest route:" << std::endl;
+void printRoute(const std::vector<int>& path) {
     for (size_t i = 0; i < path.size(); ++i) {
         std::cout << stationIDToName[path[i] + 1]; // Adjusting for 1-based indexing
         if (i < path.size() - 1) {
@@ -94,7 +94,7 @@ int main() {
     Graph metrobus(numStations);
 
     // Load the graph and station names from the JSON file
-    loadGraphFromJSON(metrobus, "metrobus_data.json");
+    loadGraphFromJSON(metrobus, "metrobus_data_corrected.json");
 
     while (true) {
         std::string sourceStationName, destinationStationName;
@@ -112,16 +112,16 @@ int main() {
             continue;
         }
 
-        std::vector<int> minDistances = metrobus.dijkstra(sourceID - 1);
-        std::vector<int> prev = metrobus.getPrev(); // Assuming you have a method to get the previous nodes
+        auto allRoutes = metrobus.getAllRoutes(sourceID - 1, destinationID - 1);
 
-        if (minDistances[destinationID - 1] == std::numeric_limits<int>::max()) {
+        if (allRoutes.empty()) {
             std::cout << "No route found from " << sourceStationName << " to " << destinationStationName << "." << std::endl;
         }
         else {
-            std::cout << "Minimum distance from " << sourceStationName << " to " << destinationStationName << " is "
-                << metrobus.distanceToString(minDistances[destinationID - 1]) << " units." << std::endl;
-            printRoute(prev, destinationID - 1);
+            std::cout << "All possible routes from " << sourceStationName << " to " << destinationStationName << ":\n";
+            for (const auto& route : allRoutes) {
+                printRoute(route);
+            }
         }
     }
 
