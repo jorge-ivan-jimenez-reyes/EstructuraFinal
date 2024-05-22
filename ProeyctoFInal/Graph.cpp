@@ -1,71 +1,81 @@
 #include "Graph.h"
-#include <queue>
-#include <functional>
+#include <iostream>
 #include <vector>
+#include <unordered_map>
+#include <queue>
 #include <utility>
 #include <limits>
-#include <unordered_map>
 #include <algorithm>
 
+// Constructor que inicializa la lista de adyacencia con el número de vértices
 Graph::Graph(int numVertices) : numVertices(numVertices) {
     adjList.resize(numVertices);
 }
 
+// Método para añadir una arista bidireccional al grafo
 void Graph::addEdge(int src, int dest, int weight) {
-    adjList[src].emplace_back(dest, weight);
-    adjList[dest].emplace_back(src, weight); // Asegurando bidireccionalidad
+    adjList[src].emplace_back(dest, weight); // Añade arista de src a dest
+    adjList[dest].emplace_back(src, weight); // Añade arista de dest a src para asegurar bidireccionalidad
 }
 
+// Método para añadir una transferencia bidireccional al grafo
 void Graph::addTransfer(int src, int dest, int extraTime) {
-    transferTimes[src][dest] = extraTime;
-    transferTimes[dest][src] = extraTime; // Asume transferencias bidireccionales
+    adjList[src].emplace_back(dest, extraTime); // Añade transferencia de src a dest
+    adjList[dest].emplace_back(src, extraTime); // Añade transferencia de dest a src para asegurar bidireccionalidad
 }
 
+// Método que implementa el algoritmo de Dijkstra para encontrar el camino más corto desde src
 std::vector<int> Graph::dijkstra(int src) {
-    std::vector<int> dist(numVertices, std::numeric_limits<int>::max());
-    prev.resize(numVertices, -1);
-    dist[src] = 0;
+    std::vector<int> dist(numVertices, std::numeric_limits<int>::max()); // Inicializa las distancias a infinito
+    prev.resize(numVertices, -1); // Inicializa el vector de predecesores
+    dist[src] = 0; // La distancia a la fuente es 0
 
     using pii = std::pair<int, int>;
-    std::priority_queue<pii, std::vector<pii>, std::greater<pii>> pq;
-    pq.emplace(0, src);
+    std::priority_queue<pii, std::vector<pii>, std::greater<pii>> pq; // Cola de prioridad para el algoritmo de Dijkstra
+    pq.emplace(0, src); // Añade la fuente a la cola de prioridad
 
     while (!pq.empty()) {
-        int u = pq.top().second;
-        pq.pop();
+        int u = pq.top().second; // Obtiene el vértice con la menor distancia
+        pq.pop(); // Elimina el vértice de la cola de prioridad
 
-        for (const auto& [v, weight] : adjList[u]) {
-            int newDist = dist[u] + weight;
+        for (const auto& [v, weight] : adjList[u]) { // Recorre los vecinos del vértice u
+            int newDist = dist[u] + weight; // Calcula la nueva distancia
 
-            // Considerar el tiempo extra de transferencia si existe
-            if (transferTimes[u].find(v) != transferTimes[u].end()) {
-                newDist += transferTimes[u][v];
-            }
-
-            if (newDist < dist[v]) {
-                dist[v] = newDist;
-                prev[v] = u;
-                pq.emplace(dist[v], v);
+            if (newDist < dist[v]) { // Si la nueva distancia es menor que la distancia actual
+                dist[v] = newDist; // Actualiza la distancia
+                prev[v] = u; // Actualiza el predecesor
+                pq.emplace(dist[v], v); // Añade el vecino a la cola de prioridad
             }
         }
     }
 
-    return dist;
+    return dist; // Devuelve el vector de distancias
 }
 
+// Método para obtener el vector de predecesores
 const std::vector<int>& Graph::getPrev() const {
     return prev;
 }
 
-std::vector<int> Graph::getShortestPath(int src, int dest) {
-    dijkstra(src);
-    std::vector<int> path;
-    for (int at = dest; at != -1; at = prev[at]) {
+// Método para imprimir el camino más corto usando nombres de estaciones
+void Graph::printPathWithNames(const std::vector<int>& prev, int dest, const std::unordered_map<int, std::string>& stationIDToName) const {
+    if (dest < 0 || dest >= prev.size() || prev[dest] == -1) { // Verifica si hay un camino válido
+        std::cerr << "No route found to the destination." << std::endl;
+        return;
+    }
+
+    std::vector<int> path; // Vector para almacenar el camino
+    for (int at = dest; at != -1; at = prev[at]) { // Recorre el vector de predecesores para construir el camino
         path.push_back(at);
     }
-    std::reverse(path.begin(), path.end());
-    if (path.size() == 1 && path[0] != src) {
-        path.clear(); // No hay ruta
+    std::reverse(path.begin(), path.end()); // Invierte el camino para obtener el orden correcto
+
+    std::cout << "Shortest route:" << std::endl;
+    for (size_t i = 0; i < path.size(); ++i) {
+        std::cout << stationIDToName.at(path[i] + 1); // Ajuste para índice basado en 1
+        if (i < path.size() - 1) {
+            std::cout << " -> ";
+        }
     }
-    return path;
+    std::cout << std::endl;
 }

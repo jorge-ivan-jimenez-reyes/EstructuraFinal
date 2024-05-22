@@ -7,16 +7,13 @@
 #include <string>
 #include <algorithm>
 #include <limits>
-#include <locale>
-#include <codecvt>
 
-// Map to store station name to ID mapping
-std::unordered_map<std::string, int> stationNameToID;
+// Mapa para almacenar el mapeo de ID a nombre de estación
 std::unordered_map<int, std::string> stationIDToName;
 
-// Function to load graph and station names from JSON
+// Función para cargar el grafo y los nombres de estaciones desde un archivo JSON
 void loadGraphFromJSON(Graph& g, const std::string& filename) {
-    std::ifstream inFile(filename);
+    std::ifstream inFile(filename); // Abre el archivo JSON
     if (!inFile) {
         std::cerr << "Error opening file: " << filename << std::endl;
         return;
@@ -24,104 +21,82 @@ void loadGraphFromJSON(Graph& g, const std::string& filename) {
 
     nlohmann::json j;
     try {
-        inFile >> j;
+        inFile >> j; // Lee el archivo JSON
     }
     catch (const nlohmann::json::parse_error& e) {
         std::cerr << "JSON parse error: " << e.what() << std::endl;
         return;
     }
 
-    if (!j.contains("conexiones") || !j["conexiones"].is_array()) {
+    if (!j.contains("conexiones") || !j["conexiones"].is_array()) { // Verifica la existencia y el formato del campo 'conexiones'
         std::cerr << "Invalid JSON structure: 'conexiones' not found or is not an array" << std::endl;
         return;
     }
 
+    // Carga las conexiones
     for (const auto& connection : j["conexiones"]) {
         int src = connection["origen"];
         int dest = connection["destino"];
         int time = connection["tiempo"];
-        g.addEdge(src - 1, dest - 1, time);
+        g.addEdge(src - 1, dest - 1, time); // Ajusta para índice basado en 0
     }
 
-    if (!j.contains("transferencias") || !j["transferencias"].is_array()) {
+    if (!j.contains("transferencias") || !j["transferencias"].is_array()) { // Verifica la existencia y el formato del campo 'transferencias'
         std::cerr << "Invalid JSON structure: 'transferencias' not found or is not an array" << std::endl;
         return;
     }
 
+    // Carga las transferencias
     for (const auto& transfer : j["transferencias"]) {
         int src = transfer["origen"];
         int dest = transfer["destino"];
         int extraTime = transfer["tiempo_extra"];
-        g.addTransfer(src - 1, dest - 1, extraTime);
+        g.addTransfer(src - 1, dest - 1, extraTime); // Ajusta para índice basado en 0
     }
 
-    if (!j.contains("estaciones") || !j["estaciones"].is_array()) {
+    if (!j.contains("estaciones") || !j["estaciones"].is_array()) { // Verifica la existencia y el formato del campo 'estaciones'
         std::cerr << "Invalid JSON structure: 'estaciones' not found or is not an array" << std::endl;
         return;
     }
 
+    // Carga las estaciones
     for (const auto& station : j["estaciones"]) {
         int id = station["id"];
         std::string name = station["nombre"];
-        stationNameToID[name] = id;
-        stationIDToName[id] = name;
+        stationIDToName[id] = name; // Almacena el mapeo de ID a nombre
     }
 }
 
-// Function to get the station ID from name
-int getStationID(const std::string& name) {
-    auto it = stationNameToID.find(name);
-    if (it != stationNameToID.end()) {
-        return it->second;
-    }
-    else {
-        std::cerr << "Error: Station name '" << name << "' not found." << std::endl;
-        return -1;
-    }
-}
-
-// Function to print the route from the source to destination
-void printRoute(const std::vector<int>& path) {
-    for (size_t i = 0; i < path.size(); ++i) {
-        std::cout << stationIDToName[path[i] + 1]; // Adjusting for 1-based indexing
-        if (i < path.size() - 1) {
-            std::cout << " -> ";
-        }
-    }
-    std::cout << std::endl;
-}
-
+// Función principal
 int main() {
-    int numStations = 272; // Adjust according to the actual number of stations
+    int numStations = 272; // Ajusta según el número real de estaciones
     Graph metrobus(numStations);
 
-    // Load the graph and station names from the JSON file
+    // Carga el grafo y los nombres de las estaciones desde el archivo JSON
     loadGraphFromJSON(metrobus, "metrobus_data_corrected.json");
 
     while (true) {
-        std::string sourceStationName, destinationStationName;
+        int sourceID, destinationID;
+        std::cout << "Enter source station ID: ";
+        std::cin >> sourceID;
+        std::cout << "Enter destination station ID: ";
+        std::cin >> destinationID;
 
-        std::cout << "Enter source station name: ";
-        std::getline(std::cin, sourceStationName);
-        std::cout << "Enter destination station name: ";
-        std::getline(std::cin, destinationStationName);
-
-        int sourceID = getStationID(sourceStationName);
-        int destinationID = getStationID(destinationStationName);
-
-        if (sourceID == -1 || destinationID == -1) {
-            std::cerr << "Error: Invalid station names. Please try again." << std::endl;
+        if (sourceID <= 0 || destinationID <= 0 || sourceID > numStations || destinationID > numStations) {
+            std::cerr << "Error: Invalid station IDs. Please try again." << std::endl;
             continue;
         }
 
-        auto shortestPath = metrobus.getShortestPath(sourceID - 1, destinationID - 1);
+        std::vector<int> minDistances = metrobus.dijkstra(sourceID - 1); // Ejecuta Dijkstra desde la estación de origen
+        std::vector<int> prev = metrobus.getPrev(); // Obtiene el vector de predecesores
 
-        if (shortestPath.empty()) {
-            std::cout << "No route found from " << sourceStationName << " to " << destinationStationName << "." << std::endl;
+        if (minDistances[destinationID - 1] == std::numeric_limits<int>::max()) {
+            std::cout << "No route found from " << stationIDToName[sourceID] << " to " << stationIDToName[destinationID] << "." << std::endl;
         }
         else {
-            std::cout << "Shortest route from " << sourceStationName << " to " << destinationStationName << ":\n";
-            printRoute(shortestPath);
+            std::cout << "Minimum distance from " << stationIDToName[sourceID] << " to " << stationIDToName[destinationID] << " is "
+                << minDistances[destinationID - 1] << " units." << std::endl;
+            metrobus.printPathWithNames(prev, destinationID - 1, stationIDToName); // Imprime la ruta más corta con nombres de estaciones
         }
     }
 
