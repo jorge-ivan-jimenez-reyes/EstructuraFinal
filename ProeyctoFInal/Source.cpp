@@ -7,6 +7,8 @@
 #include <string>
 #include <algorithm>
 #include <limits>
+#include <locale>
+#include <codecvt>
 
 // Map to store station name to ID mapping
 std::unordered_map<std::string, int> stationNameToID;
@@ -112,16 +114,14 @@ int main() {
             continue;
         }
 
-        auto allRoutes = metrobus.getAllRoutes(sourceID - 1, destinationID - 1);
+        auto shortestPath = metrobus.getShortestPath(sourceID - 1, destinationID - 1);
 
-        if (allRoutes.empty()) {
+        if (shortestPath.empty()) {
             std::cout << "No route found from " << sourceStationName << " to " << destinationStationName << "." << std::endl;
         }
         else {
-            std::cout << "All possible routes from " << sourceStationName << " to " << destinationStationName << ":\n";
-            for (const auto& route : allRoutes) {
-                printRoute(route);
-            }
+            std::cout << "Shortest route from " << sourceStationName << " to " << destinationStationName << ":\n";
+            printRoute(shortestPath);
         }
     }
 

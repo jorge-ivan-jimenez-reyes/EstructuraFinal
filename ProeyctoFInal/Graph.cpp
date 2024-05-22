@@ -5,6 +5,7 @@
 #include <utility>
 #include <limits>
 #include <unordered_map>
+#include <algorithm>
 
 Graph::Graph(int numVertices) : numVertices(numVertices) {
     adjList.resize(numVertices);
@@ -56,29 +57,15 @@ const std::vector<int>& Graph::getPrev() const {
     return prev;
 }
 
-void Graph::dfs(int u, int dest, std::vector<bool>& visited, std::vector<int>& path, std::vector<std::vector<int>>& allPaths) {
-    visited[u] = true;
-    path.push_back(u);
-
-    if (u == dest) {
-        allPaths.push_back(path);
-    }
-    else {
-        for (const auto& [v, weight] : adjList[u]) {
-            if (!visited[v]) {
-                dfs(v, dest, visited, path, allPaths);
-            }
-        }
-    }
-
-    path.pop_back();
-    visited[u] = false;
-}
-
-std::vector<std::vector<int>> Graph::getAllRoutes(int src, int dest) {
-    std::vector<bool> visited(numVertices, false);
+std::vector<int> Graph::getShortestPath(int src, int dest) {
+    dijkstra(src);
     std::vector<int> path;
-    std::vector<std::vector<int>> allPaths;
-    dfs(src, dest, visited, path, allPaths);
-    return allPaths;
+    for (int at = dest; at != -1; at = prev[at]) {
+        path.push_back(at);
+    }
+    std::reverse(path.begin(), path.end());
+    if (path.size() == 1 && path[0] != src) {
+        path.clear(); // No hay ruta
+    }
+    return path;
 }
