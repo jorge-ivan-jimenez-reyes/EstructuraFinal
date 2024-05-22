@@ -1,0 +1,4078 @@
+{
+    "estaciones": [
+        {
+            "id": 1,
+            "nombre": "Indios Verdes",
+            "linea": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Deportivo 18 de Marzo",
+            "linea": 1
+        },
+        {
+            "id": 3,
+            "nombre": "Euzkaro",
+            "linea": 1
+        },
+        {
+            "id": 4,
+            "nombre": "Potrero",
+            "linea": 1
+        },
+        {
+            "id": 5,
+            "nombre": "La Raza",
+            "linea": 1
+        },
+        {
+            "id": 6,
+            "nombre": "Circuito",
+            "linea": 1
+        },
+        {
+            "id": 7,
+            "nombre": "San Simón",
+            "linea": 1
+        },
+        {
+            "id": 8,
+            "nombre": "Manuel González",
+            "linea": 1
+        },
+        {
+            "id": 9,
+            "nombre": "Buenavista",
+            "linea": 1
+        },
+        {
+            "id": 10,
+            "nombre": "El Chopo",
+            "linea": 1
+        },
+        {
+            "id": 11,
+            "nombre": "Revolución",
+            "linea": 1
+        },
+        {
+            "id": 12,
+            "nombre": "Plaza de la República",
+            "linea": 1
+        },
+        {
+            "id": 13,
+            "nombre": "Reforma",
+            "linea": 1
+        },
+        {
+            "id": 14,
+            "nombre": "Hamburgo",
+            "linea": 1
+        },
+        {
+            "id": 15,
+            "nombre": "Glorieta Insurgentes",
+            "linea": 1
+        },
+        {
+            "id": 16,
+            "nombre": "Durango",
+            "linea": 1
+        },
+        {
+            "id": 17,
+            "nombre": "Álvaro Obregón",
+            "linea": 1
+        },
+        {
+            "id": 18,
+            "nombre": "Sonora",
+            "linea": 1
+        },
+        {
+            "id": 19,
+            "nombre": "Campeche",
+            "linea": 1
+        },
+        {
+            "id": 20,
+            "nombre": "Nuevo León",
+            "linea": 1
+        },
+        {
+            "id": 21,
+            "nombre": "La Piedad",
+            "linea": 1
+        },
+        {
+            "id": 22,
+            "nombre": "Poliforum",
+            "linea": 1
+        },
+        {
+            "id": 23,
+            "nombre": "Nápoles",
+            "linea": 1
+        },
+        {
+            "id": 24,
+            "nombre": "Colonia del Valle",
+            "linea": 1
+        },
+        {
+            "id": 25,
+            "nombre": "Ciudad de los Deportes",
+            "linea": 1
+        },
+        {
+            "id": 26,
+            "nombre": "Parque Hundido",
+            "linea": 1
+        },
+        {
+            "id": 27,
+            "nombre": "Félix Cuevas",
+            "linea": 1
+        },
+        {
+            "id": 28,
+            "nombre": "Río Churubusco",
+            "linea": 1
+        },
+        {
+            "id": 29,
+            "nombre": "Teatro Insurgentes",
+            "linea": 1
+        },
+        {
+            "id": 30,
+            "nombre": "José Ma. Velasco",
+            "linea": 1
+        },
+        {
+            "id": 31,
+            "nombre": "Francia",
+            "linea": 1
+        },
+        {
+            "id": 32,
+            "nombre": "Olivo",
+            "linea": 1
+        },
+        {
+            "id": 33,
+            "nombre": "Altavista",
+            "linea": 1
+        },
+        {
+            "id": 34,
+            "nombre": "La Bombilla",
+            "linea": 1
+        },
+        {
+            "id": 35,
+            "nombre": "Doctor Gálvez",
+            "linea": 1
+        },
+        {
+            "id": 36,
+            "nombre": "Ciudad Universitaria",
+            "linea": 1
+        },
+        {
+            "id": 37,
+            "nombre": "Centro Cultural Universitario",
+            "linea": 1
+        },
+        {
+            "id": 38,
+            "nombre": "Perisur",
+            "linea": 1
+        },
+        {
+            "id": 39,
+            "nombre": "Villa Olímpica",
+            "linea": 1
+        },
+        {
+            "id": 40,
+            "nombre": "Corregidora",
+            "linea": 1
+        },
+        {
+            "id": 41,
+            "nombre": "Ayuntamiento",
+            "linea": 1
+        },
+        {
+            "id": 42,
+            "nombre": "Fuentes Brotantes",
+            "linea": 1
+        },
+        {
+            "id": 43,
+            "nombre": "Santa Úrsula",
+            "linea": 1
+        },
+        {
+            "id": 44,
+            "nombre": "La Joya",
+            "linea": 1
+        },
+        {
+            "id": 45,
+            "nombre": "El Caminero",
+            "linea": 1
+        },
+        {
+            "id": 46,
+            "nombre": "Tepalcates",
+            "linea": 2
+        },
+        {
+            "id": 47,
+            "nombre": "Canal de San Juan",
+            "linea": 2
+        },
+        {
+            "id": 48,
+            "nombre": "General Antonio de León",
+            "linea": 2
+        },
+        {
+            "id": 49,
+            "nombre": "Nicolás Bravo",
+            "linea": 2
+        },
+        {
+            "id": 50,
+            "nombre": "Constitución de Apatzingán",
+            "linea": 2
+        },
+        {
+            "id": 51,
+            "nombre": "CCH Oriente",
+            "linea": 2
+        },
+        {
+            "id": 52,
+            "nombre": "Leyes de Reforma",
+            "linea": 2
+        },
+        {
+            "id": 53,
+            "nombre": "Del Moral",
+            "linea": 2
+        },
+        {
+            "id": 54,
+            "nombre": "Río Frío",
+            "linea": 2
+        },
+        {
+            "id": 55,
+            "nombre": "Rojo Gómez",
+            "linea": 2
+        },
+        {
+            "id": 56,
+            "nombre": "Río Mayo",
+            "linea": 2
+        },
+        {
+            "id": 57,
+            "nombre": "Río Tecolutla",
+            "linea": 2
+        },
+        {
+            "id": 58,
+            "nombre": "El Rodeo",
+            "linea": 2
+        },
+        {
+            "id": 59,
+            "nombre": "UPIICSA",
+            "linea": 2
+        },
+        {
+            "id": 60,
+            "nombre": "Iztacalco",
+            "linea": 2
+        },
+        {
+            "id": 61,
+            "nombre": "Goma",
+            "linea": 2
+        },
+        {
+            "id": 62,
+            "nombre": "Tlacotal",
+            "linea": 2
+        },
+        {
+            "id": 63,
+            "nombre": "Canela",
+            "linea": 2
+        },
+        {
+            "id": 64,
+            "nombre": "Coyuya",
+            "linea": 2
+        },
+        {
+            "id": 65,
+            "nombre": "La Viga",
+            "linea": 2
+        },
+        {
+            "id": 66,
+            "nombre": "Andrés Molina",
+            "linea": 2
+        },
+        {
+            "id": 67,
+            "nombre": "Las Américas",
+            "linea": 2
+        },
+        {
+            "id": 68,
+            "nombre": "Xola",
+            "linea": 2
+        },
+        {
+            "id": 69,
+            "nombre": "Álamos",
+            "linea": 2
+        },
+        {
+            "id": 70,
+            "nombre": "Centro SCOP",
+            "linea": 2
+        },
+        {
+            "id": 71,
+            "nombre": "Doctor Vértiz",
+            "linea": 2
+        },
+        {
+            "id": 72,
+            "nombre": "Etiopía",
+            "linea": 2
+        },
+        {
+            "id": 73,
+            "nombre": "Amores",
+            "linea": 2
+        },
+        {
+            "id": 74,
+            "nombre": "Viaducto",
+            "linea": 2
+        },
+        {
+            "id": 75,
+            "nombre": "Nuevo León",
+            "linea": 2
+        },
+        {
+            "id": 76,
+            "nombre": "Escandón",
+            "linea": 2
+        },
+        {
+            "id": 77,
+            "nombre": "Patriotismo",
+            "linea": 2
+        },
+        {
+            "id": 78,
+            "nombre": "De La Salle",
+            "linea": 2
+        },
+        {
+            "id": 79,
+            "nombre": "Parque Lira",
+            "linea": 2
+        },
+        {
+            "id": 80,
+            "nombre": "Antonio Maceo",
+            "linea": 2
+        },
+        {
+            "id": 81,
+            "nombre": "Tacubaya",
+            "linea": 2
+        },
+        {
+            "id": 82,
+            "nombre": "Tenayuca",
+            "linea": 3
+        },
+        {
+            "id": 83,
+            "nombre": "Progreso Nacional",
+            "linea": 3
+        },
+        {
+            "id": 84,
+            "nombre": "Tres Anegas",
+            "linea": 3
+        },
+        {
+            "id": 85,
+            "nombre": "Júpiter",
+            "linea": 3
+        },
+        {
+            "id": 86,
+            "nombre": "La Patera",
+            "linea": 3
+        },
+        {
+            "id": 87,
+            "nombre": "Poniente 146",
+            "linea": 3
+        },
+        {
+            "id": 88,
+            "nombre": "Montevideo",
+            "linea": 3
+        },
+        {
+            "id": 89,
+            "nombre": "Poniente 134",
+            "linea": 3
+        },
+        {
+            "id": 90,
+            "nombre": "Poniente 128",
+            "linea": 3
+        },
+        {
+            "id": 91,
+            "nombre": "Magdalena de las Salinas",
+            "linea": 3
+        },
+        {
+            "id": 92,
+            "nombre": "Coltongo",
+            "linea": 3
+        },
+        {
+            "id": 93,
+            "nombre": "Cuitláhuac",
+            "linea": 3
+        },
+        {
+            "id": 94,
+            "nombre": "Héroe de Nacozari",
+            "linea": 3
+        },
+        {
+            "id": 95,
+            "nombre": "Hospital La Raza",
+            "linea": 3
+        },
+        {
+            "id": 96,
+            "nombre": "La Raza",
+            "linea": 3
+        },
+        {
+            "id": 97,
+            "nombre": "Circuito",
+            "linea": 3
+        },
+        {
+            "id": 98,
+            "nombre": "Tolnáhuac",
+            "linea": 3
+        },
+        {
+            "id": 99,
+            "nombre": "Tlatelolco",
+            "linea": 3
+        },
+        {
+            "id": 100,
+            "nombre": "Ricardo Flores Magón",
+            "linea": 3
+        },
+        {
+            "id": 101,
+            "nombre": "Guerrero",
+            "linea": 3
+        },
+        {
+            "id": 102,
+            "nombre": "Buenavista",
+            "linea": 3
+        },
+        {
+            "id": 103,
+            "nombre": "Mina",
+            "linea": 3
+        },
+        {
+            "id": 104,
+            "nombre": "Hidalgo",
+            "linea": 3
+        },
+        {
+            "id": 105,
+            "nombre": "Juárez",
+            "linea": 3
+        },
+        {
+            "id": 106,
+            "nombre": "Balderas",
+            "linea": 3
+        },
+        {
+            "id": 107,
+            "nombre": "Cuauhtémoc",
+            "linea": 3
+        },
+        {
+            "id": 108,
+            "nombre": "Jardín Pushkin",
+            "linea": 3
+        },
+        {
+            "id": 109,
+            "nombre": "Hospital General",
+            "linea": 3
+        },
+        {
+            "id": 110,
+            "nombre": "Dr. Márquez",
+            "linea": 3
+        },
+        {
+            "id": 111,
+            "nombre": "Centro Médico",
+            "linea": 3
+        },
+        {
+            "id": 112,
+            "nombre": "Obrero Mundial",
+            "linea": 3
+        },
+        {
+            "id": 113,
+            "nombre": "Etiopía. Plaza de la Transparencia",
+            "linea": 3
+        },
+        {
+            "id": 114,
+            "nombre": "Luz Saviñón",
+            "linea": 3
+        },
+        {
+            "id": 115,
+            "nombre": "Eugenia",
+            "linea": 3
+        },
+        {
+            "id": 116,
+            "nombre": "División del Norte",
+            "linea": 3
+        },
+        {
+            "id": 117,
+            "nombre": "Miguel Laurent",
+            "linea": 3
+        },
+        {
+            "id": 118,
+            "nombre": "Pueblo Sta. Cruz Atoyac",
+            "linea": 3
+        },
+        {
+            "id": 119,
+            "nombre": "Buenavista",
+            "linea": 4
+        },
+        {
+            "id": 120,
+            "nombre": "Delegación Cuauhtémoc",
+            "linea": 4
+        },
+        {
+            "id": 121,
+            "nombre": "Puente de Alvarado",
+            "linea": 4
+        },
+        {
+            "id": 122,
+            "nombre": "Museo San Carlos",
+            "linea": 4
+        },
+        {
+            "id": 123,
+            "nombre": "Hidalgo",
+            "linea": 4
+        },
+        {
+            "id": 124,
+            "nombre": "Bellas Artes",
+            "linea": 4
+        },
+        {
+            "id": 125,
+            "nombre": "Teatro Blanquita",
+            "linea": 4
+        },
+        {
+            "id": 126,
+            "nombre": "República de Chile",
+            "linea": 4
+        },
+        {
+            "id": 127,
+            "nombre": "República de Argentina",
+            "linea": 4
+        },
+        {
+            "id": 128,
+            "nombre": "Mercado Abelardo L. Rodríguez",
+            "linea": 4
+        },
+        {
+            "id": 129,
+            "nombre": "Mixcalco",
+            "linea": 4
+        },
+        {
+            "id": 130,
+            "nombre": "Ferrocarril de Cintura",
+            "linea": 4
+        },
+        {
+            "id": 131,
+            "nombre": "Morelos",
+            "linea": 4
+        },
+        {
+            "id": 132,
+            "nombre": "Archivo General de la Nación",
+            "linea": 4
+        },
+        {
+            "id": 133,
+            "nombre": "San Lázaro",
+            "linea": 4
+        },
+        {
+            "id": 134,
+            "nombre": "Moctezuma",
+            "linea": 4
+        },
+        {
+            "id": 135,
+            "nombre": "Eduardo Molina",
+            "linea": 4
+        },
+        {
+            "id": 136,
+            "nombre": "Hospital Balbuena",
+            "linea": 4
+        },
+        {
+            "id": 137,
+            "nombre": "Cecilio Robelo",
+            "linea": 4
+        },
+        {
+            "id": 138,
+            "nombre": "Mercado Sonora",
+            "linea": 4
+        },
+        {
+            "id": 139,
+            "nombre": "La Merced",
+            "linea": 4
+        },
+        {
+            "id": 140,
+            "nombre": "Las Cruces",
+            "linea": 4
+        },
+        {
+            "id": 141,
+            "nombre": "Mercado Ampudia",
+            "linea": 4
+        },
+        {
+            "id": 142,
+            "nombre": "Las Cruces Sur y Norte",
+            "linea": 4
+        },
+        {
+            "id": 143,
+            "nombre": "Museo de la Ciudad",
+            "linea": 4
+        },
+        {
+            "id": 144,
+            "nombre": "Pino Suárez",
+            "linea": 4
+        },
+        {
+            "id": 145,
+            "nombre": "Isabel La Católica",
+            "linea": 4
+        },
+        {
+            "id": 146,
+            "nombre": "El Salvador",
+            "linea": 4
+        },
+        {
+            "id": 147,
+            "nombre": "Eje Central",
+            "linea": 4
+        },
+        {
+            "id": 148,
+            "nombre": "Plaza San Juan",
+            "linea": 4
+        },
+        {
+            "id": 149,
+            "nombre": "Juárez",
+            "linea": 4
+        },
+        {
+            "id": 150,
+            "nombre": "Vocacional 5",
+            "linea": 4
+        },
+        {
+            "id": 151,
+            "nombre": "Expo Reforma",
+            "linea": 4
+        },
+        {
+            "id": 152,
+            "nombre": "Glorieta Colón",
+            "linea": 4
+        },
+        {
+            "id": 153,
+            "nombre": "Plaza de la República",
+            "linea": 4
+        },
+        {
+            "id": 154,
+            "nombre": "Terminal 1",
+            "linea": 4
+        },
+        {
+            "id": 155,
+            "nombre": "Terminal 2",
+            "linea": 4
+        },
+        {
+            "id": 156,
+            "nombre": "Río de los Remedios",
+            "linea": 5
+        },
+        {
+            "id": 157,
+            "nombre": "Memorial New's Divine - 314",
+            "linea": 5
+        },
+        {
+            "id": 158,
+            "nombre": "5 de mayo",
+            "linea": 5
+        },
+        {
+            "id": 159,
+            "nombre": "Vasco de Quiroga",
+            "linea": 5
+        },
+        {
+            "id": 160,
+            "nombre": "El Coyol",
+            "linea": 5
+        },
+        {
+            "id": 161,
+            "nombre": "Preparatoria 3",
+            "linea": 5
+        },
+        {
+            "id": 162,
+            "nombre": "San Juan de Aragón",
+            "linea": 5
+        },
+        {
+            "id": 163,
+            "nombre": "Río Guadalupe",
+            "linea": 5
+        },
+        {
+            "id": 164,
+            "nombre": "Talismán",
+            "linea": 5
+        },
+        {
+            "id": 165,
+            "nombre": "Victoria",
+            "linea": 5
+        },
+        {
+            "id": 166,
+            "nombre": "101",
+            "linea": 5
+        },
+        {
+            "id": 167,
+            "nombre": "Río Santa Coleta",
+            "linea": 5
+        },
+        {
+            "id": 168,
+            "nombre": "Río Consulado",
+            "linea": 5
+        },
+        {
+            "id": 169,
+            "nombre": "Canal del Norte",
+            "linea": 5
+        },
+        {
+            "id": 170,
+            "nombre": "Deportivo Eduardo Molina",
+            "linea": 5
+        },
+        {
+            "id": 171,
+            "nombre": "Mercado Morelos",
+            "linea": 5
+        },
+        {
+            "id": 172,
+            "nombre": "Archivo General de la Nación",
+            "linea": 5
+        },
+        {
+            "id": 173,
+            "nombre": "San Lázaro",
+            "linea": 5
+        },
+        {
+            "id": 174,
+            "nombre": "Moctezuma",
+            "linea": 5
+        },
+        {
+            "id": 175,
+            "nombre": "Venustiano Carranza",
+            "linea": 5
+        },
+        {
+            "id": 176,
+            "nombre": "Avenida del Taller",
+            "linea": 5
+        },
+        {
+            "id": 177,
+            "nombre": "Mixiuhca",
+            "linea": 5
+        },
+        {
+            "id": 178,
+            "nombre": "Hospital General Troncoso",
+            "linea": 5
+        },
+        {
+            "id": 179,
+            "nombre": "Metro Coyuya",
+            "linea": 5
+        },
+        {
+            "id": 180,
+            "nombre": "El Recreo",
+            "linea": 5
+        },
+        {
+            "id": 181,
+            "nombre": "Oriente 116",
+            "linea": 5
+        },
+        {
+            "id": 182,
+            "nombre": "Colegio de Bachilleres 3",
+            "linea": 5
+        },
+        {
+            "id": 183,
+            "nombre": "Canal Apatlaco",
+            "linea": 5
+        },
+        {
+            "id": 184,
+            "nombre": "Apatlaco",
+            "linea": 5
+        },
+        {
+            "id": 185,
+            "nombre": "Aculco",
+            "linea": 5
+        },
+        {
+            "id": 186,
+            "nombre": "Churubusco Oriente",
+            "linea": 5
+        },
+        {
+            "id": 187,
+            "nombre": "Escuadrón 201",
+            "linea": 5
+        },
+        {
+            "id": 188,
+            "nombre": "Atanasio G. Sarabia",
+            "linea": 5
+        },
+        {
+            "id": 189,
+            "nombre": "Ermita Iztapalapa",
+            "linea": 5
+        },
+        {
+            "id": 190,
+            "nombre": "Ganaderos",
+            "linea": 5
+        },
+        {
+            "id": 191,
+            "nombre": "Pueblo de los Reyes",
+            "linea": 5
+        },
+        {
+            "id": 192,
+            "nombre": "Barrio San Antonio",
+            "linea": 5
+        },
+        {
+            "id": 193,
+            "nombre": "Calzada Taxqueña",
+            "linea": 5
+        },
+        {
+            "id": 194,
+            "nombre": "Cafetales",
+            "linea": 5
+        },
+        {
+            "id": 195,
+            "nombre": "ESIME Culhuacán",
+            "linea": 5
+        },
+        {
+            "id": 196,
+            "nombre": "Manuela Sáez",
+            "linea": 5
+        },
+        {
+            "id": 197,
+            "nombre": "La Virgen",
+            "linea": 5
+        },
+        {
+            "id": 198,
+            "nombre": "Tepetlapa",
+            "linea": 5
+        },
+        {
+            "id": 199,
+            "nombre": "Las Bombas",
+            "linea": 5
+        },
+        {
+            "id": 200,
+            "nombre": "Vista Hermosa",
+            "linea": 5
+        },
+        {
+            "id": 201,
+            "nombre": "Calzada del Hueso",
+            "linea": 5
+        },
+        {
+            "id": 202,
+            "nombre": "Cañaverales",
+            "linea": 5
+        },
+        {
+            "id": 203,
+            "nombre": "Muyuguarda",
+            "linea": 5
+        },
+        {
+            "id": 204,
+            "nombre": "Circuito Cuemanco",
+            "linea": 5
+        },
+        {
+            "id": 205,
+            "nombre": "DIF Xochimilco",
+            "linea": 5
+        },
+        {
+            "id": 206,
+            "nombre": "Preparatoria 1",
+            "linea": 5
+        },
+        {
+            "id": 207,
+            "nombre": "El Rosario",
+            "linea": 6
+        },
+        {
+            "id": 208,
+            "nombre": "Colegio de Bachilleres 1",
+            "linea": 6
+        },
+        {
+            "id": 209,
+            "nombre": "De las Culturas",
+            "linea": 6
+        },
+        {
+            "id": 210,
+            "nombre": "UAM Azcapotzalco",
+            "linea": 6
+        },
+        {
+            "id": 211,
+            "nombre": "Tecnoparque",
+            "linea": 6
+        },
+        {
+            "id": 212,
+            "nombre": "Norte 59",
+            "linea": 6
+        },
+        {
+            "id": 213,
+            "nombre": "Norte 45",
+            "linea": 6
+        },
+        {
+            "id": 214,
+            "nombre": "Montevideo",
+            "linea": 6
+        },
+        {
+            "id": 215,
+            "nombre": "Lindavista-Vallejo",
+            "linea": 6
+        },
+        {
+            "id": 216,
+            "nombre": "Instituto del Petróleo",
+            "linea": 6
+        },
+        {
+            "id": 217,
+            "nombre": "San Bartolo",
+            "linea": 6
+        },
+        {
+            "id": 218,
+            "nombre": "Instituto Politécnico Nacional",
+            "linea": 6
+        },
+        {
+            "id": 219,
+            "nombre": "Riobamba",
+            "linea": 6
+        },
+        {
+            "id": 220,
+            "nombre": "Deportivo 18 de Marzo",
+            "linea": 6
+        },
+        {
+            "id": 221,
+            "nombre": "La Villa",
+            "linea": 6
+        },
+        {
+            "id": 222,
+            "nombre": "De los Misterios",
+            "linea": 6
+        },
+        {
+            "id": 223,
+            "nombre": "Hospital Infantil La Villa",
+            "linea": 6
+        },
+        {
+            "id": 224,
+            "nombre": "Delegación Gustavo A. Madero",
+            "linea": 6
+        },
+        {
+            "id": 225,
+            "nombre": "Martín Carrera",
+            "linea": 6
+        },
+        {
+            "id": 226,
+            "nombre": "Hospital General La Villa",
+            "linea": 6
+        },
+        {
+            "id": 227,
+            "nombre": "San Juan de Aragón",
+            "linea": 6
+        },
+        {
+            "id": 228,
+            "nombre": "Gran Canal",
+            "linea": 6
+        },
+        {
+            "id": 229,
+            "nombre": "Casas Alemán",
+            "linea": 6
+        },
+        {
+            "id": 230,
+            "nombre": "Pueblo San Juan de Aragón",
+            "linea": 6
+        },
+        {
+            "id": 231,
+            "nombre": "Loreto Fabela",
+            "linea": 6
+        },
+        {
+            "id": 232,
+            "nombre": "416 Poniente",
+            "linea": 6
+        },
+        {
+            "id": 233,
+            "nombre": "482",
+            "linea": 6
+        },
+        {
+            "id": 234,
+            "nombre": "414",
+            "linea": 6
+        },
+        {
+            "id": 235,
+            "nombre": "Deportivo Los Galeana",
+            "linea": 6
+        },
+        {
+            "id": 236,
+            "nombre": "Ampliación Providencia",
+            "linea": 6
+        },
+        {
+            "id": 237,
+            "nombre": "Volcán de Fuego",
+            "linea": 6
+        },
+        {
+            "id": 238,
+            "nombre": "La Pradera",
+            "linea": 6
+        },
+        {
+            "id": 239,
+            "nombre": "416 Oriente",
+            "linea": 6
+        },
+        {
+            "id": 240,
+            "nombre": "Colegio de Bachilleres 9",
+            "linea": 6
+        },
+        {
+            "id": 241,
+            "nombre": "Francisco Morazán",
+            "linea": 6
+        },
+        {
+            "id": 242,
+            "nombre": "Villa Aragón",
+            "linea": 6
+        },
+        {
+            "id": 243,
+            "nombre": "Campo Marte",
+            "linea": 7
+        },
+        {
+            "id": 244,
+            "nombre": "Auditorio",
+            "linea": 7
+        },
+        {
+            "id": 245,
+            "nombre": "Antropología",
+            "linea": 7
+        },
+        {
+            "id": 246,
+            "nombre": "Gandhi",
+            "linea": 7
+        },
+        {
+            "id": 247,
+            "nombre": "Chapultepec",
+            "linea": 7
+        },
+        {
+            "id": 248,
+            "nombre": "La Diana",
+            "linea": 7
+        },
+        {
+            "id": 249,
+            "nombre": "El Ángel",
+            "linea": 7
+        },
+        {
+            "id": 250,
+            "nombre": "La Palma",
+            "linea": 7
+        },
+        {
+            "id": 251,
+            "nombre": "Hamburgo",
+            "linea": 7
+        },
+        {
+            "id": 252,
+            "nombre": "Reforma",
+            "linea": 7
+        },
+        {
+            "id": 253,
+            "nombre": "París",
+            "linea": 7
+        },
+        {
+            "id": 254,
+            "nombre": "El Caballito",
+            "linea": 7
+        },
+        {
+            "id": 255,
+            "nombre": "Hidalgo",
+            "linea": 7
+        },
+        {
+            "id": 256,
+            "nombre": "Glorieta Violeta",
+            "linea": 7
+        },
+        {
+            "id": 257,
+            "nombre": "Garibaldi",
+            "linea": 7
+        },
+        {
+            "id": 258,
+            "nombre": "Glorieta Cuitláhuac",
+            "linea": 7
+        },
+        {
+            "id": 259,
+            "nombre": "Tres Culturas",
+            "linea": 7
+        },
+        {
+            "id": 260,
+            "nombre": "Peralvillo",
+            "linea": 7
+        },
+        {
+            "id": 261,
+            "nombre": "Mercado Beethoven",
+            "linea": 7
+        },
+        {
+            "id": 262,
+            "nombre": "Misterios",
+            "linea": 7
+        },
+        {
+            "id": 263,
+            "nombre": "Clave",
+            "linea": 7
+        },
+        {
+            "id": 264,
+            "nombre": "Robles Domínguez",
+            "linea": 7
+        },
+        {
+            "id": 265,
+            "nombre": "Excélsior",
+            "linea": 7
+        },
+        {
+            "id": 266,
+            "nombre": "Necaxa",
+            "linea": 7
+        },
+        {
+            "id": 267,
+            "nombre": "Avenida Talismán",
+            "linea": 7
+        },
+        {
+            "id": 268,
+            "nombre": "Garrido",
+            "linea": 7
+        },
+        {
+            "id": 269,
+            "nombre": "Delegación Gustavo A. Madero",
+            "linea": 7
+        },
+        {
+            "id": 270,
+            "nombre": "Hospital Infantil La Villa",
+            "linea": 7
+        },
+        {
+            "id": 271,
+            "nombre": "De Los Misterios",
+            "linea": 7
+        },
+        {
+            "id": 272,
+            "nombre": "Indios Verdes",
+            "linea": 7
+        }
+    ],
+    "conexiones": [
+        {
+            "origen": 5,
+            "destino": 4,
+            "tiempo": 2
+        },
+        {
+            "origen": 143,
+            "destino": 142,
+            "tiempo": 2
+        },
+        {
+            "origen": 103,
+            "destino": 102,
+            "tiempo": 2
+        },
+        {
+            "origen": 199,
+            "destino": 200,
+            "tiempo": 2
+        },
+        {
+            "origen": 88,
+            "destino": 87,
+            "tiempo": 2
+        },
+        {
+            "origen": 40,
+            "destino": 39,
+            "tiempo": 2
+        },
+        {
+            "origen": 178,
+            "destino": 177,
+            "tiempo": 2
+        },
+        {
+            "origen": 25,
+            "destino": 24,
+            "tiempo": 2
+        },
+        {
+            "origen": 163,
+            "destino": 162,
+            "tiempo": 2
+        },
+        {
+            "origen": 122,
+            "destino": 121,
+            "tiempo": 2
+        },
+        {
+            "origen": 14,
+            "destino": 15,
+            "tiempo": 2
+        },
+        {
+            "origen": 84,
+            "destino": 85,
+            "tiempo": 2
+        },
+        {
+            "origen": 142,
+            "destino": 141,
+            "tiempo": 2
+        },
+        {
+            "origen": 41,
+            "destino": 42,
+            "tiempo": 2
+        },
+        {
+            "origen": 131,
+            "destino": 132,
+            "tiempo": 2
+        },
+        {
+            "origen": 210,
+            "destino": 211,
+            "tiempo": 2
+        },
+        {
+            "origen": 116,
+            "destino": 117,
+            "tiempo": 2
+        },
+        {
+            "origen": 259,
+            "destino": 258,
+            "tiempo": 2
+        },
+        {
+            "origen": 134,
+            "destino": 133,
+            "tiempo": 2
+        },
+        {
+            "origen": 110,
+            "destino": 111,
+            "tiempo": 2
+        },
+        {
+            "origen": 95,
+            "destino": 96,
+            "tiempo": 2
+        },
+        {
+            "origen": 168,
+            "destino": 167,
+            "tiempo": 2
+        },
+        {
+            "origen": 185,
+            "destino": 186,
+            "tiempo": 2
+        },
+        {
+            "origen": 74,
+            "destino": 73,
+            "tiempo": 2
+        },
+        {
+            "origen": 153,
+            "destino": 152,
+            "tiempo": 2
+        },
+        {
+            "origen": 170,
+            "destino": 171,
+            "tiempo": 2
+        },
+        {
+            "origen": 11,
+            "destino": 10,
+            "tiempo": 2
+        },
+        {
+            "origen": 212,
+            "destino": 213,
+            "tiempo": 2
+        },
+        {
+            "origen": 164,
+            "destino": 165,
+            "tiempo": 2
+        },
+        {
+            "origen": 53,
+            "destino": 52,
+            "tiempo": 2
+        },
+        {
+            "origen": 149,
+            "destino": 150,
+            "tiempo": 2
+        },
+        {
+            "origen": 38,
+            "destino": 37,
+            "tiempo": 2
+        },
+        {
+            "origen": 222,
+            "destino": 221,
+            "tiempo": 2
+        },
+        {
+            "origen": 247,
+            "destino": 248,
+            "tiempo": 2
+        },
+        {
+            "origen": 128,
+            "destino": 127,
+            "tiempo": 2
+        },
+        {
+            "origen": 27,
+            "destino": 28,
+            "tiempo": 2
+        },
+        {
+            "origen": 266,
+            "destino": 267,
+            "tiempo": 2
+        },
+        {
+            "origen": 107,
+            "destino": 106,
+            "tiempo": 2
+        },
+        {
+            "origen": 13,
+            "destino": 12,
+            "tiempo": 2
+        },
+        {
+            "origen": 245,
+            "destino": 244,
+            "tiempo": 2
+        },
+        {
+            "origen": 197,
+            "destino": 196,
+            "tiempo": 2
+        },
+        {
+            "origen": 182,
+            "destino": 181,
+            "tiempo": 2
+        },
+        {
+            "origen": 18,
+            "destino": 19,
+            "tiempo": 2
+        },
+        {
+            "origen": 139,
+            "destino": 138,
+            "tiempo": 2
+        },
+        {
+            "origen": 226,
+            "destino": 227,
+            "tiempo": 2
+        },
+        {
+            "origen": 67,
+            "destino": 66,
+            "tiempo": 2
+        },
+        {
+            "origen": 60,
+            "destino": 61,
+            "tiempo": 2
+        },
+        {
+            "origen": 39,
+            "destino": 38,
+            "tiempo": 2
+        },
+        {
+            "origen": 135,
+            "destino": 136,
+            "tiempo": 2
+        },
+        {
+            "origen": 24,
+            "destino": 23,
+            "tiempo": 2
+        },
+        {
+            "origen": 114,
+            "destino": 113,
+            "tiempo": 2
+        },
+        {
+            "origen": 59,
+            "destino": 58,
+            "tiempo": 2
+        },
+        {
+            "origen": 20,
+            "destino": 21,
+            "tiempo": 2
+        },
+        {
+            "origen": 252,
+            "destino": 253,
+            "tiempo": 2
+        },
+        {
+            "origen": 127,
+            "destino": 128,
+            "tiempo": 2
+        },
+        {
+            "origen": 93,
+            "destino": 92,
+            "tiempo": 2
+        },
+        {
+            "origen": 172,
+            "destino": 171,
+            "tiempo": 2
+        },
+        {
+            "origen": 189,
+            "destino": 190,
+            "tiempo": 2
+        },
+        {
+            "origen": 78,
+            "destino": 77,
+            "tiempo": 2
+        },
+        {
+            "origen": 30,
+            "destino": 29,
+            "tiempo": 2
+        },
+        {
+            "origen": 176,
+            "destino": 175,
+            "tiempo": 2
+        },
+        {
+            "origen": 238,
+            "destino": 237,
+            "tiempo": 2
+        },
+        {
+            "origen": 113,
+            "destino": 112,
+            "tiempo": 2
+        },
+        {
+            "origen": 12,
+            "destino": 13,
+            "tiempo": 2
+        },
+        {
+            "origen": 74,
+            "destino": 75,
+            "tiempo": 2
+        },
+        {
+            "origen": 195,
+            "destino": 194,
+            "tiempo": 2
+        },
+        {
+            "origen": 70,
+            "destino": 69,
+            "tiempo": 2
+        },
+        {
+            "origen": 147,
+            "destino": 146,
+            "tiempo": 2
+        },
+        {
+            "origen": 251,
+            "destino": 252,
+            "tiempo": 2
+        },
+        {
+            "origen": 132,
+            "destino": 131,
+            "tiempo": 2
+        },
+        {
+            "origen": 31,
+            "destino": 32,
+            "tiempo": 2
+        },
+        {
+            "origen": 230,
+            "destino": 229,
+            "tiempo": 2
+        },
+        {
+            "origen": 129,
+            "destino": 130,
+            "tiempo": 2
+        },
+        {
+            "origen": 160,
+            "destino": 161,
+            "tiempo": 2
+        },
+        {
+            "origen": 66,
+            "destino": 67,
+            "tiempo": 2
+        },
+        {
+            "origen": 32,
+            "destino": 31,
+            "tiempo": 2
+        },
+        {
+            "origen": 264,
+            "destino": 263,
+            "tiempo": 2
+        },
+        {
+            "origen": 17,
+            "destino": 16,
+            "tiempo": 2
+        },
+        {
+            "origen": 209,
+            "destino": 208,
+            "tiempo": 2
+        },
+        {
+            "origen": 249,
+            "destino": 248,
+            "tiempo": 2
+        },
+        {
+            "origen": 6,
+            "destino": 7,
+            "tiempo": 2
+        },
+        {
+            "origen": 85,
+            "destino": 86,
+            "tiempo": 2
+        },
+        {
+            "origen": 183,
+            "destino": 184,
+            "tiempo": 2
+        },
+        {
+            "origen": 64,
+            "destino": 63,
+            "tiempo": 2
+        },
+        {
+            "origen": 120,
+            "destino": 121,
+            "tiempo": 2
+        },
+        {
+            "origen": 9,
+            "destino": 8,
+            "tiempo": 2
+        },
+        {
+            "origen": 258,
+            "destino": 259,
+            "tiempo": 2
+        },
+        {
+            "origen": 43,
+            "destino": 42,
+            "tiempo": 2
+        },
+        {
+            "origen": 139,
+            "destino": 140,
+            "tiempo": 2
+        },
+        {
+            "origen": 237,
+            "destino": 238,
+            "tiempo": 2
+        },
+        {
+            "origen": 118,
+            "destino": 117,
+            "tiempo": 2
+        },
+        {
+            "origen": 216,
+            "destino": 215,
+            "tiempo": 2
+        },
+        {
+            "origen": 63,
+            "destino": 62,
+            "tiempo": 2
+        },
+        {
+            "origen": 52,
+            "destino": 53,
+            "tiempo": 2
+        },
+        {
+            "origen": 97,
+            "destino": 96,
+            "tiempo": 2
+        },
+        {
+            "origen": 37,
+            "destino": 38,
+            "tiempo": 2
+        },
+        {
+            "origen": 3,
+            "destino": 2,
+            "tiempo": 2
+        },
+        {
+            "origen": 235,
+            "destino": 234,
+            "tiempo": 2
+        },
+        {
+            "origen": 180,
+            "destino": 179,
+            "tiempo": 2
+        },
+        {
+            "origen": 270,
+            "destino": 269,
+            "tiempo": 2
+        },
+        {
+            "origen": 255,
+            "destino": 254,
+            "tiempo": 2
+        },
+        {
+            "origen": 16,
+            "destino": 17,
+            "tiempo": 2
+        },
+        {
+            "origen": 214,
+            "destino": 213,
+            "tiempo": 2
+        },
+        {
+            "origen": 231,
+            "destino": 232,
+            "tiempo": 2
+        },
+        {
+            "origen": 89,
+            "destino": 88,
+            "tiempo": 2
+        },
+        {
+            "origen": 106,
+            "destino": 107,
+            "tiempo": 2
+        },
+        {
+            "origen": 176,
+            "destino": 177,
+            "tiempo": 2
+        },
+        {
+            "origen": 155,
+            "destino": 154,
+            "tiempo": 2
+        },
+        {
+            "origen": 148,
+            "destino": 149,
+            "tiempo": 2
+        },
+        {
+            "origen": 234,
+            "destino": 233,
+            "tiempo": 2
+        },
+        {
+            "origen": 133,
+            "destino": 134,
+            "tiempo": 2
+        },
+        {
+            "origen": 223,
+            "destino": 224,
+            "tiempo": 2
+        },
+        {
+            "origen": 70,
+            "destino": 71,
+            "tiempo": 2
+        },
+        {
+            "origen": 208,
+            "destino": 209,
+            "tiempo": 2
+        },
+        {
+            "origen": 174,
+            "destino": 173,
+            "tiempo": 2
+        },
+        {
+            "origen": 49,
+            "destino": 48,
+            "tiempo": 2
+        },
+        {
+            "origen": 10,
+            "destino": 11,
+            "tiempo": 2
+        },
+        {
+            "origen": 202,
+            "destino": 203,
+            "tiempo": 2
+        },
+        {
+            "origen": 187,
+            "destino": 188,
+            "tiempo": 2
+        },
+        {
+            "origen": 28,
+            "destino": 27,
+            "tiempo": 2
+        },
+        {
+            "origen": 166,
+            "destino": 165,
+            "tiempo": 2
+        },
+        {
+            "origen": 262,
+            "destino": 263,
+            "tiempo": 2
+        },
+        {
+            "origen": 228,
+            "destino": 227,
+            "tiempo": 2
+        },
+        {
+            "origen": 2,
+            "destino": 3,
+            "tiempo": 2
+        },
+        {
+            "origen": 145,
+            "destino": 144,
+            "tiempo": 2
+        },
+        {
+            "origen": 162,
+            "destino": 163,
+            "tiempo": 2
+        },
+        {
+            "origen": 241,
+            "destino": 242,
+            "tiempo": 2
+        },
+        {
+            "origen": 130,
+            "destino": 129,
+            "tiempo": 2
+        },
+        {
+            "origen": 220,
+            "destino": 219,
+            "tiempo": 2
+        },
+        {
+            "origen": 119,
+            "destino": 120,
+            "tiempo": 2
+        },
+        {
+            "origen": 205,
+            "destino": 204,
+            "tiempo": 2
+        },
+        {
+            "origen": 181,
+            "destino": 182,
+            "tiempo": 2
+        },
+        {
+            "origen": 56,
+            "destino": 57,
+            "tiempo": 2
+        },
+        {
+            "origen": 22,
+            "destino": 21,
+            "tiempo": 2
+        },
+        {
+            "origen": 199,
+            "destino": 198,
+            "tiempo": 2
+        },
+        {
+            "origen": 105,
+            "destino": 104,
+            "tiempo": 2
+        },
+        {
+            "origen": 184,
+            "destino": 183,
+            "tiempo": 2
+        },
+        {
+            "origen": 173,
+            "destino": 174,
+            "tiempo": 2
+        },
+        {
+            "origen": 62,
+            "destino": 61,
+            "tiempo": 2
+        },
+        {
+            "origen": 14,
+            "destino": 13,
+            "tiempo": 2
+        },
+        {
+            "origen": 248,
+            "destino": 249,
+            "tiempo": 2
+        },
+        {
+            "origen": 159,
+            "destino": 158,
+            "tiempo": 2
+        },
+        {
+            "origen": 152,
+            "destino": 153,
+            "tiempo": 2
+        },
+        {
+            "origen": 58,
+            "destino": 59,
+            "tiempo": 2
+        },
+        {
+            "origen": 137,
+            "destino": 138,
+            "tiempo": 2
+        },
+        {
+            "origen": 131,
+            "destino": 130,
+            "tiempo": 2
+        },
+        {
+            "origen": 227,
+            "destino": 228,
+            "tiempo": 2
+        },
+        {
+            "origen": 116,
+            "destino": 115,
+            "tiempo": 2
+        },
+        {
+            "origen": 68,
+            "destino": 67,
+            "tiempo": 2
+        },
+        {
+            "origen": 191,
+            "destino": 190,
+            "tiempo": 2
+        },
+        {
+            "origen": 112,
+            "destino": 113,
+            "tiempo": 2
+        },
+        {
+            "origen": 185,
+            "destino": 184,
+            "tiempo": 2
+        },
+        {
+            "origen": 91,
+            "destino": 90,
+            "tiempo": 2
+        },
+        {
+            "origen": 170,
+            "destino": 169,
+            "tiempo": 2
+        },
+        {
+            "origen": 69,
+            "destino": 70,
+            "tiempo": 2
+        },
+        {
+            "origen": 260,
+            "destino": 259,
+            "tiempo": 2
+        },
+        {
+            "origen": 104,
+            "destino": 105,
+            "tiempo": 2
+        },
+        {
+            "origen": 239,
+            "destino": 238,
+            "tiempo": 2
+        },
+        {
+            "origen": 179,
+            "destino": 180,
+            "tiempo": 2
+        },
+        {
+            "origen": 224,
+            "destino": 223,
+            "tiempo": 2
+        },
+        {
+            "origen": 123,
+            "destino": 124,
+            "tiempo": 2
+        },
+        {
+            "origen": 29,
+            "destino": 30,
+            "tiempo": 2
+        },
+        {
+            "origen": 198,
+            "destino": 199,
+            "tiempo": 2
+        },
+        {
+            "origen": 158,
+            "destino": 159,
+            "tiempo": 2
+        },
+        {
+            "origen": 124,
+            "destino": 123,
+            "tiempo": 2
+        },
+        {
+            "origen": 109,
+            "destino": 108,
+            "tiempo": 2
+        },
+        {
+            "origen": 247,
+            "destino": 246,
+            "tiempo": 2
+        },
+        {
+            "origen": 8,
+            "destino": 9,
+            "tiempo": 2
+        },
+        {
+            "origen": 98,
+            "destino": 99,
+            "tiempo": 2
+        },
+        {
+            "origen": 177,
+            "destino": 178,
+            "tiempo": 2
+        },
+        {
+            "origen": 83,
+            "destino": 84,
+            "tiempo": 2
+        },
+        {
+            "origen": 18,
+            "destino": 17,
+            "tiempo": 2
+        },
+        {
+            "origen": 156,
+            "destino": 155,
+            "tiempo": 2
+        },
+        {
+            "origen": 226,
+            "destino": 225,
+            "tiempo": 2
+        },
+        {
+            "origen": 77,
+            "destino": 78,
+            "tiempo": 2
+        },
+        {
+            "origen": 62,
+            "destino": 63,
+            "tiempo": 2
+        },
+        {
+            "origen": 135,
+            "destino": 134,
+            "tiempo": 2
+        },
+        {
+            "origen": 41,
+            "destino": 40,
+            "tiempo": 2
+        },
+        {
+            "origen": 210,
+            "destino": 209,
+            "tiempo": 2
+        },
+        {
+            "origen": 54,
+            "destino": 55,
+            "tiempo": 2
+        },
+        {
+            "origen": 20,
+            "destino": 19,
+            "tiempo": 2
+        },
+        {
+            "origen": 110,
+            "destino": 109,
+            "tiempo": 2
+        },
+        {
+            "origen": 189,
+            "destino": 188,
+            "tiempo": 2
+        },
+        {
+            "origen": 95,
+            "destino": 94,
+            "tiempo": 2
+        },
+        {
+            "origen": 272,
+            "destino": 271,
+            "tiempo": 2
+        },
+        {
+            "origen": 52,
+            "destino": 51,
+            "tiempo": 2
+        },
+        {
+            "origen": 233,
+            "destino": 234,
+            "tiempo": 2
+        },
+        {
+            "origen": 108,
+            "destino": 109,
+            "tiempo": 2
+        },
+        {
+            "origen": 212,
+            "destino": 211,
+            "tiempo": 2
+        },
+        {
+            "origen": 87,
+            "destino": 86,
+            "tiempo": 2
+        },
+        {
+            "origen": 164,
+            "destino": 163,
+            "tiempo": 2
+        },
+        {
+            "origen": 48,
+            "destino": 49,
+            "tiempo": 2
+        },
+        {
+            "origen": 106,
+            "destino": 105,
+            "tiempo": 2
+        },
+        {
+            "origen": 66,
+            "destino": 65,
+            "tiempo": 2
+        },
+        {
+            "origen": 266,
+            "destino": 265,
+            "tiempo": 2
+        },
+        {
+            "origen": 40,
+            "destino": 41,
+            "tiempo": 2
+        },
+        {
+            "origen": 6,
+            "destino": 5,
+            "tiempo": 2
+        },
+        {
+            "origen": 85,
+            "destino": 84,
+            "tiempo": 2
+        },
+        {
+            "origen": 25,
+            "destino": 26,
+            "tiempo": 2
+        },
+        {
+            "origen": 102,
+            "destino": 103,
+            "tiempo": 2
+        },
+        {
+            "origen": 240,
+            "destino": 241,
+            "tiempo": 2
+        },
+        {
+            "origen": 200,
+            "destino": 201,
+            "tiempo": 2
+        },
+        {
+            "origen": 81,
+            "destino": 80,
+            "tiempo": 2
+        },
+        {
+            "origen": 160,
+            "destino": 159,
+            "tiempo": 2
+        },
+        {
+            "origen": 120,
+            "destino": 119,
+            "tiempo": 2
+        },
+        {
+            "origen": 258,
+            "destino": 257,
+            "tiempo": 2
+        },
+        {
+            "origen": 219,
+            "destino": 220,
+            "tiempo": 2
+        },
+        {
+            "origen": 94,
+            "destino": 95,
+            "tiempo": 2
+        },
+        {
+            "origen": 60,
+            "destino": 59,
+            "tiempo": 2
+        },
+        {
+            "origen": 45,
+            "destino": 44,
+            "tiempo": 2
+        },
+        {
+            "origen": 254,
+            "destino": 255,
+            "tiempo": 2
+        },
+        {
+            "origen": 73,
+            "destino": 74,
+            "tiempo": 2
+        },
+        {
+            "origen": 211,
+            "destino": 212,
+            "tiempo": 2
+        },
+        {
+            "origen": 196,
+            "destino": 197,
+            "tiempo": 2
+        },
+        {
+            "origen": 37,
+            "destino": 36,
+            "tiempo": 2
+        },
+        {
+            "origen": 252,
+            "destino": 251,
+            "tiempo": 2
+        },
+        {
+            "origen": 99,
+            "destino": 98,
+            "tiempo": 2
+        },
+        {
+            "origen": 96,
+            "destino": 97,
+            "tiempo": 2
+        },
+        {
+            "origen": 33,
+            "destino": 34,
+            "tiempo": 2
+        },
+        {
+            "origen": 265,
+            "destino": 266,
+            "tiempo": 2
+        },
+        {
+            "origen": 231,
+            "destino": 230,
+            "tiempo": 2
+        },
+        {
+            "origen": 250,
+            "destino": 251,
+            "tiempo": 2
+        },
+        {
+            "origen": 251,
+            "destino": 250,
+            "tiempo": 2
+        },
+        {
+            "origen": 150,
+            "destino": 151,
+            "tiempo": 2
+        },
+        {
+            "origen": 31,
+            "destino": 30,
+            "tiempo": 2
+        },
+        {
+            "origen": 223,
+            "destino": 222,
+            "tiempo": 2
+        },
+        {
+            "origen": 87,
+            "destino": 88,
+            "tiempo": 2
+        },
+        {
+            "origen": 208,
+            "destino": 207,
+            "tiempo": 2
+        },
+        {
+            "origen": 225,
+            "destino": 226,
+            "tiempo": 2
+        },
+        {
+            "origen": 44,
+            "destino": 45,
+            "tiempo": 2
+        },
+        {
+            "origen": 10,
+            "destino": 9,
+            "tiempo": 2
+        },
+        {
+            "origen": 148,
+            "destino": 147,
+            "tiempo": 2
+        },
+        {
+            "origen": 204,
+            "destino": 205,
+            "tiempo": 2
+        },
+        {
+            "origen": 183,
+            "destino": 182,
+            "tiempo": 2
+        },
+        {
+            "origen": 262,
+            "destino": 261,
+            "tiempo": 2
+        },
+        {
+            "origen": 2,
+            "destino": 1,
+            "tiempo": 2
+        },
+        {
+            "origen": 19,
+            "destino": 20,
+            "tiempo": 2
+        },
+        {
+            "origen": 4,
+            "destino": 5,
+            "tiempo": 2
+        },
+        {
+            "origen": 236,
+            "destino": 237,
+            "tiempo": 2
+        },
+        {
+            "origen": 202,
+            "destino": 201,
+            "tiempo": 2
+        },
+        {
+            "origen": 162,
+            "destino": 161,
+            "tiempo": 2
+        },
+        {
+            "origen": 46,
+            "destino": 47,
+            "tiempo": 2
+        },
+        {
+            "origen": 237,
+            "destino": 236,
+            "tiempo": 2
+        },
+        {
+            "origen": 136,
+            "destino": 137,
+            "tiempo": 2
+        },
+        {
+            "origen": 215,
+            "destino": 216,
+            "tiempo": 2
+        },
+        {
+            "origen": 181,
+            "destino": 180,
+            "tiempo": 2
+        },
+        {
+            "origen": 121,
+            "destino": 122,
+            "tiempo": 2
+        },
+        {
+            "origen": 56,
+            "destino": 55,
+            "tiempo": 2
+        },
+        {
+            "origen": 256,
+            "destino": 255,
+            "tiempo": 2
+        },
+        {
+            "origen": 201,
+            "destino": 200,
+            "tiempo": 2
+        },
+        {
+            "origen": 30,
+            "destino": 31,
+            "tiempo": 2
+        },
+        {
+            "origen": 100,
+            "destino": 101,
+            "tiempo": 2
+        },
+        {
+            "origen": 190,
+            "destino": 191,
+            "tiempo": 2
+        },
+        {
+            "origen": 269,
+            "destino": 270,
+            "tiempo": 2
+        },
+        {
+            "origen": 79,
+            "destino": 78,
+            "tiempo": 2
+        },
+        {
+            "origen": 175,
+            "destino": 176,
+            "tiempo": 2
+        },
+        {
+            "origen": 141,
+            "destino": 140,
+            "tiempo": 2
+        },
+        {
+            "origen": 16,
+            "destino": 15,
+            "tiempo": 2
+        },
+        {
+            "origen": 248,
+            "destino": 247,
+            "tiempo": 2
+        },
+        {
+            "origen": 169,
+            "destino": 170,
+            "tiempo": 2
+        },
+        {
+            "origen": 154,
+            "destino": 155,
+            "tiempo": 2
+        },
+        {
+            "origen": 227,
+            "destino": 226,
+            "tiempo": 2
+        },
+        {
+            "origen": 244,
+            "destino": 245,
+            "tiempo": 2
+        },
+        {
+            "origen": 133,
+            "destino": 132,
+            "tiempo": 2
+        },
+        {
+            "origen": 229,
+            "destino": 230,
+            "tiempo": 2
+        },
+        {
+            "origen": 32,
+            "destino": 33,
+            "tiempo": 2
+        },
+        {
+            "origen": 271,
+            "destino": 272,
+            "tiempo": 2
+        },
+        {
+            "origen": 112,
+            "destino": 111,
+            "tiempo": 2
+        },
+        {
+            "origen": 187,
+            "destino": 186,
+            "tiempo": 2
+        },
+        {
+            "origen": 86,
+            "destino": 87,
+            "tiempo": 2
+        },
+        {
+            "origen": 23,
+            "destino": 24,
+            "tiempo": 2
+        },
+        {
+            "origen": 144,
+            "destino": 143,
+            "tiempo": 2
+        },
+        {
+            "origen": 161,
+            "destino": 162,
+            "tiempo": 2
+        },
+        {
+            "origen": 65,
+            "destino": 66,
+            "tiempo": 2
+        },
+        {
+            "origen": 50,
+            "destino": 51,
+            "tiempo": 2
+        },
+        {
+            "origen": 241,
+            "destino": 240,
+            "tiempo": 2
+        },
+        {
+            "origen": 140,
+            "destino": 141,
+            "tiempo": 2
+        },
+        {
+            "origen": 29,
+            "destino": 28,
+            "tiempo": 2
+        },
+        {
+            "origen": 198,
+            "destino": 197,
+            "tiempo": 2
+        },
+        {
+            "origen": 257,
+            "destino": 258,
+            "tiempo": 2
+        },
+        {
+            "origen": 132,
+            "destino": 133,
+            "tiempo": 2
+        },
+        {
+            "origen": 98,
+            "destino": 97,
+            "tiempo": 2
+        },
+        {
+            "origen": 194,
+            "destino": 195,
+            "tiempo": 2
+        },
+        {
+            "origen": 83,
+            "destino": 82,
+            "tiempo": 2
+        },
+        {
+            "origen": 35,
+            "destino": 34,
+            "tiempo": 2
+        },
+        {
+            "origen": 173,
+            "destino": 172,
+            "tiempo": 2
+        },
+        {
+            "origen": 158,
+            "destino": 157,
+            "tiempo": 2
+        },
+        {
+            "origen": 151,
+            "destino": 152,
+            "tiempo": 2
+        },
+        {
+            "origen": 17,
+            "destino": 18,
+            "tiempo": 2
+        },
+        {
+            "origen": 79,
+            "destino": 80,
+            "tiempo": 2
+        },
+        {
+            "origen": 200,
+            "destino": 199,
+            "tiempo": 2
+        },
+        {
+            "origen": 152,
+            "destino": 151,
+            "tiempo": 2
+        },
+        {
+            "origen": 58,
+            "destino": 57,
+            "tiempo": 2
+        },
+        {
+            "origen": 51,
+            "destino": 52,
+            "tiempo": 2
+        },
+        {
+            "origen": 137,
+            "destino": 136,
+            "tiempo": 2
+        },
+        {
+            "origen": 36,
+            "destino": 37,
+            "tiempo": 2
+        },
+        {
+            "origen": 126,
+            "destino": 127,
+            "tiempo": 2
+        },
+        {
+            "origen": 111,
+            "destino": 112,
+            "tiempo": 2
+        },
+        {
+            "origen": 71,
+            "destino": 72,
+            "tiempo": 2
+        },
+        {
+            "origen": 254,
+            "destino": 253,
+            "tiempo": 2
+        },
+        {
+            "origen": 146,
+            "destino": 147,
+            "tiempo": 2
+        },
+        {
+            "origen": 90,
+            "destino": 91,
+            "tiempo": 2
+        },
+        {
+            "origen": 188,
+            "destino": 189,
+            "tiempo": 2
+        },
+        {
+            "origen": 69,
+            "destino": 68,
+            "tiempo": 2
+        },
+        {
+            "origen": 165,
+            "destino": 166,
+            "tiempo": 2
+        },
+        {
+            "origen": 125,
+            "destino": 126,
+            "tiempo": 2
+        },
+        {
+            "origen": 263,
+            "destino": 264,
+            "tiempo": 2
+        },
+        {
+            "origen": 207,
+            "destino": 208,
+            "tiempo": 2
+        },
+        {
+            "origen": 48,
+            "destino": 47,
+            "tiempo": 2
+        },
+        {
+            "origen": 144,
+            "destino": 145,
+            "tiempo": 2
+        },
+        {
+            "origen": 123,
+            "destino": 122,
+            "tiempo": 2
+        },
+        {
+            "origen": 22,
+            "destino": 23,
+            "tiempo": 2
+        },
+        {
+            "origen": 261,
+            "destino": 262,
+            "tiempo": 2
+        },
+        {
+            "origen": 102,
+            "destino": 101,
+            "tiempo": 2
+        },
+        {
+            "origen": 42,
+            "destino": 43,
+            "tiempo": 2
+        },
+        {
+            "origen": 8,
+            "destino": 7,
+            "tiempo": 2
+        },
+        {
+            "origen": 240,
+            "destino": 239,
+            "tiempo": 2
+        },
+        {
+            "origen": 177,
+            "destino": 176,
+            "tiempo": 2
+        },
+        {
+            "origen": 76,
+            "destino": 77,
+            "tiempo": 2
+        },
+        {
+            "origen": 21,
+            "destino": 22,
+            "tiempo": 2
+        },
+        {
+            "origen": 219,
+            "destino": 218,
+            "tiempo": 2
+        },
+        {
+            "origen": 77,
+            "destino": 76,
+            "tiempo": 2
+        },
+        {
+            "origen": 55,
+            "destino": 56,
+            "tiempo": 2
+        },
+        {
+            "origen": 193,
+            "destino": 194,
+            "tiempo": 2
+        },
+        {
+            "origen": 19,
+            "destino": 18,
+            "tiempo": 2
+        },
+        {
+            "origen": 228,
+            "destino": 229,
+            "tiempo": 2
+        },
+        {
+            "origen": 75,
+            "destino": 76,
+            "tiempo": 2
+        },
+        {
+            "origen": 213,
+            "destino": 214,
+            "tiempo": 2
+        },
+        {
+            "origen": 54,
+            "destino": 53,
+            "tiempo": 2
+        },
+        {
+            "origen": 15,
+            "destino": 16,
+            "tiempo": 2
+        },
+        {
+            "origen": 192,
+            "destino": 193,
+            "tiempo": 2
+        },
+        {
+            "origen": 73,
+            "destino": 72,
+            "tiempo": 2
+        },
+        {
+            "origen": 33,
+            "destino": 32,
+            "tiempo": 2
+        },
+        {
+            "origen": 171,
+            "destino": 170,
+            "tiempo": 2
+        },
+        {
+            "origen": 267,
+            "destino": 268,
+            "tiempo": 2
+        },
+        {
+            "origen": 233,
+            "destino": 232,
+            "tiempo": 2
+        },
+        {
+            "origen": 108,
+            "destino": 107,
+            "tiempo": 2
+        },
+        {
+            "origen": 7,
+            "destino": 8,
+            "tiempo": 2
+        },
+        {
+            "origen": 167,
+            "destino": 168,
+            "tiempo": 2
+        },
+        {
+            "origen": 246,
+            "destino": 247,
+            "tiempo": 2
+        },
+        {
+            "origen": 127,
+            "destino": 126,
+            "tiempo": 2
+        },
+        {
+            "origen": 225,
+            "destino": 224,
+            "tiempo": 2
+        },
+        {
+            "origen": 124,
+            "destino": 125,
+            "tiempo": 2
+        },
+        {
+            "origen": 109,
+            "destino": 110,
+            "tiempo": 2
+        },
+        {
+            "origen": 186,
+            "destino": 187,
+            "tiempo": 2
+        },
+        {
+            "origen": 61,
+            "destino": 62,
+            "tiempo": 2
+        },
+        {
+            "origen": 27,
+            "destino": 26,
+            "tiempo": 2
+        },
+        {
+            "origen": 12,
+            "destino": 11,
+            "tiempo": 2
+        },
+        {
+            "origen": 5,
+            "destino": 6,
+            "tiempo": 2
+        },
+        {
+            "origen": 204,
+            "destino": 203,
+            "tiempo": 2
+        },
+        {
+            "origen": 221,
+            "destino": 222,
+            "tiempo": 2
+        },
+        {
+            "origen": 1,
+            "destino": 2,
+            "tiempo": 2
+        },
+        {
+            "origen": 178,
+            "destino": 179,
+            "tiempo": 2
+        },
+        {
+            "origen": 163,
+            "destino": 164,
+            "tiempo": 2
+        },
+        {
+            "origen": 115,
+            "destino": 116,
+            "tiempo": 2
+        },
+        {
+            "origen": 4,
+            "destino": 3,
+            "tiempo": 2
+        },
+        {
+            "origen": 236,
+            "destino": 235,
+            "tiempo": 2
+        },
+        {
+            "origen": 253,
+            "destino": 254,
+            "tiempo": 2
+        },
+        {
+            "origen": 94,
+            "destino": 93,
+            "tiempo": 2
+        },
+        {
+            "origen": 136,
+            "destino": 135,
+            "tiempo": 2
+        },
+        {
+            "origen": 232,
+            "destino": 233,
+            "tiempo": 2
+        },
+        {
+            "origen": 121,
+            "destino": 120,
+            "tiempo": 2
+        },
+        {
+            "origen": 138,
+            "destino": 139,
+            "tiempo": 2
+        },
+        {
+            "origen": 217,
+            "destino": 218,
+            "tiempo": 2
+        },
+        {
+            "origen": 211,
+            "destino": 210,
+            "tiempo": 2
+        },
+        {
+            "origen": 196,
+            "destino": 195,
+            "tiempo": 2
+        },
+        {
+            "origen": 47,
+            "destino": 48,
+            "tiempo": 2
+        },
+        {
+            "origen": 117,
+            "destino": 118,
+            "tiempo": 2
+        },
+        {
+            "origen": 190,
+            "destino": 189,
+            "tiempo": 2
+        },
+        {
+            "origen": 96,
+            "destino": 95,
+            "tiempo": 2
+        },
+        {
+            "origen": 175,
+            "destino": 174,
+            "tiempo": 2
+        },
+        {
+            "origen": 265,
+            "destino": 264,
+            "tiempo": 2
+        },
+        {
+            "origen": 26,
+            "destino": 27,
+            "tiempo": 2
+        },
+        {
+            "origen": 250,
+            "destino": 249,
+            "tiempo": 2
+        },
+        {
+            "origen": 11,
+            "destino": 12,
+            "tiempo": 2
+        },
+        {
+            "origen": 243,
+            "destino": 244,
+            "tiempo": 2
+        },
+        {
+            "origen": 101,
+            "destino": 102,
+            "tiempo": 2
+        },
+        {
+            "origen": 171,
+            "destino": 172,
+            "tiempo": 2
+        },
+        {
+            "origen": 244,
+            "destino": 243,
+            "tiempo": 2
+        },
+        {
+            "origen": 184,
+            "destino": 185,
+            "tiempo": 2
+        },
+        {
+            "origen": 150,
+            "destino": 149,
+            "tiempo": 2
+        },
+        {
+            "origen": 143,
+            "destino": 144,
+            "tiempo": 2
+        },
+        {
+            "origen": 229,
+            "destino": 228,
+            "tiempo": 2
+        },
+        {
+            "origen": 128,
+            "destino": 129,
+            "tiempo": 2
+        },
+        {
+            "origen": 80,
+            "destino": 81,
+            "tiempo": 2
+        },
+        {
+            "origen": 34,
+            "destino": 35,
+            "tiempo": 2
+        },
+        {
+            "origen": 218,
+            "destino": 219,
+            "tiempo": 2
+        },
+        {
+            "origen": 203,
+            "destino": 204,
+            "tiempo": 2
+        },
+        {
+            "origen": 169,
+            "destino": 168,
+            "tiempo": 2
+        },
+        {
+            "origen": 129,
+            "destino": 128,
+            "tiempo": 2
+        },
+        {
+            "origen": 44,
+            "destino": 43,
+            "tiempo": 2
+        },
+        {
+            "origen": 13,
+            "destino": 14,
+            "tiempo": 2
+        },
+        {
+            "origen": 197,
+            "destino": 198,
+            "tiempo": 2
+        },
+        {
+            "origen": 103,
+            "destino": 104,
+            "tiempo": 2
+        },
+        {
+            "origen": 182,
+            "destino": 183,
+            "tiempo": 2
+        },
+        {
+            "origen": 88,
+            "destino": 89,
+            "tiempo": 2
+        },
+        {
+            "origen": 23,
+            "destino": 22,
+            "tiempo": 2
+        },
+        {
+            "origen": 161,
+            "destino": 160,
+            "tiempo": 2
+        },
+        {
+            "origen": 67,
+            "destino": 68,
+            "tiempo": 2
+        },
+        {
+            "origen": 140,
+            "destino": 139,
+            "tiempo": 2
+        },
+        {
+            "origen": 157,
+            "destino": 158,
+            "tiempo": 2
+        },
+        {
+            "origen": 125,
+            "destino": 124,
+            "tiempo": 2
+        },
+        {
+            "origen": 142,
+            "destino": 143,
+            "tiempo": 2
+        },
+        {
+            "origen": 215,
+            "destino": 214,
+            "tiempo": 2
+        },
+        {
+            "origen": 114,
+            "destino": 115,
+            "tiempo": 2
+        },
+        {
+            "origen": 259,
+            "destino": 260,
+            "tiempo": 2
+        },
+        {
+            "origen": 194,
+            "destino": 193,
+            "tiempo": 2
+        },
+        {
+            "origen": 134,
+            "destino": 135,
+            "tiempo": 2
+        },
+        {
+            "origen": 100,
+            "destino": 99,
+            "tiempo": 2
+        },
+        {
+            "origen": 179,
+            "destino": 178,
+            "tiempo": 2
+        },
+        {
+            "origen": 269,
+            "destino": 268,
+            "tiempo": 2
+        },
+        {
+            "origen": 72,
+            "destino": 71,
+            "tiempo": 2
+        },
+        {
+            "origen": 168,
+            "destino": 169,
+            "tiempo": 2
+        },
+        {
+            "origen": 57,
+            "destino": 56,
+            "tiempo": 2
+        },
+        {
+            "origen": 238,
+            "destino": 239,
+            "tiempo": 2
+        },
+        {
+            "origen": 113,
+            "destino": 114,
+            "tiempo": 2
+        },
+        {
+            "origen": 92,
+            "destino": 91,
+            "tiempo": 2
+        },
+        {
+            "origen": 154,
+            "destino": 153,
+            "tiempo": 2
+        },
+        {
+            "origen": 147,
+            "destino": 148,
+            "tiempo": 2
+        },
+        {
+            "origen": 53,
+            "destino": 54,
+            "tiempo": 2
+        },
+        {
+            "origen": 126,
+            "destino": 125,
+            "tiempo": 2
+        },
+        {
+            "origen": 222,
+            "destino": 223,
+            "tiempo": 2
+        },
+        {
+            "origen": 111,
+            "destino": 110,
+            "tiempo": 2
+        },
+        {
+            "origen": 271,
+            "destino": 270,
+            "tiempo": 2
+        },
+        {
+            "origen": 146,
+            "destino": 145,
+            "tiempo": 2
+        },
+        {
+            "origen": 122,
+            "destino": 123,
+            "tiempo": 2
+        },
+        {
+            "origen": 107,
+            "destino": 108,
+            "tiempo": 2
+        },
+        {
+            "origen": 245,
+            "destino": 246,
+            "tiempo": 2
+        },
+        {
+            "origen": 86,
+            "destino": 85,
+            "tiempo": 2
+        },
+        {
+            "origen": 165,
+            "destino": 164,
+            "tiempo": 2
+        },
+        {
+            "origen": 71,
+            "destino": 70,
+            "tiempo": 2
+        },
+        {
+            "origen": 64,
+            "destino": 65,
+            "tiempo": 2
+        },
+        {
+            "origen": 263,
+            "destino": 262,
+            "tiempo": 2
+        },
+        {
+            "origen": 99,
+            "destino": 100,
+            "tiempo": 2
+        },
+        {
+            "origen": 65,
+            "destino": 64,
+            "tiempo": 2
+        },
+        {
+            "origen": 50,
+            "destino": 49,
+            "tiempo": 2
+        },
+        {
+            "origen": 39,
+            "destino": 40,
+            "tiempo": 2
+        },
+        {
+            "origen": 24,
+            "destino": 25,
+            "tiempo": 2
+        },
+        {
+            "origen": 216,
+            "destino": 217,
+            "tiempo": 2
+        },
+        {
+            "origen": 201,
+            "destino": 202,
+            "tiempo": 2
+        },
+        {
+            "origen": 153,
+            "destino": 154,
+            "tiempo": 2
+        },
+        {
+            "origen": 167,
+            "destino": 166,
+            "tiempo": 2
+        },
+        {
+            "origen": 42,
+            "destino": 41,
+            "tiempo": 2
+        },
+        {
+            "origen": 59,
+            "destino": 60,
+            "tiempo": 2
+        },
+        {
+            "origen": 257,
+            "destino": 256,
+            "tiempo": 2
+        },
+        {
+            "origen": 104,
+            "destino": 103,
+            "tiempo": 2
+        },
+        {
+            "origen": 3,
+            "destino": 4,
+            "tiempo": 2
+        },
+        {
+            "origen": 76,
+            "destino": 75,
+            "tiempo": 2
+        },
+        {
+            "origen": 93,
+            "destino": 94,
+            "tiempo": 2
+        },
+        {
+            "origen": 172,
+            "destino": 173,
+            "tiempo": 2
+        },
+        {
+            "origen": 38,
+            "destino": 39,
+            "tiempo": 2
+        },
+        {
+            "origen": 270,
+            "destino": 271,
+            "tiempo": 2
+        },
+        {
+            "origen": 151,
+            "destino": 150,
+            "tiempo": 2
+        },
+        {
+            "origen": 255,
+            "destino": 256,
+            "tiempo": 2
+        },
+        {
+            "origen": 221,
+            "destino": 220,
+            "tiempo": 2
+        },
+        {
+            "origen": 72,
+            "destino": 73,
+            "tiempo": 2
+        },
+        {
+            "origen": 57,
+            "destino": 58,
+            "tiempo": 2
+        },
+        {
+            "origen": 51,
+            "destino": 50,
+            "tiempo": 2
+        },
+        {
+            "origen": 155,
+            "destino": 156,
+            "tiempo": 2
+        },
+        {
+            "origen": 36,
+            "destino": 35,
+            "tiempo": 2
+        },
+        {
+            "origen": 268,
+            "destino": 267,
+            "tiempo": 2
+        },
+        {
+            "origen": 92,
+            "destino": 93,
+            "tiempo": 2
+        },
+        {
+            "origen": 213,
+            "destino": 212,
+            "tiempo": 2
+        },
+        {
+            "origen": 230,
+            "destino": 231,
+            "tiempo": 2
+        },
+        {
+            "origen": 49,
+            "destino": 50,
+            "tiempo": 2
+        },
+        {
+            "origen": 15,
+            "destino": 14,
+            "tiempo": 2
+        },
+        {
+            "origen": 264,
+            "destino": 265,
+            "tiempo": 2
+        },
+        {
+            "origen": 209,
+            "destino": 210,
+            "tiempo": 2
+        },
+        {
+            "origen": 90,
+            "destino": 89,
+            "tiempo": 2
+        },
+        {
+            "origen": 188,
+            "destino": 187,
+            "tiempo": 2
+        },
+        {
+            "origen": 267,
+            "destino": 266,
+            "tiempo": 2
+        },
+        {
+            "origen": 47,
+            "destino": 46,
+            "tiempo": 2
+        },
+        {
+            "origen": 256,
+            "destino": 257,
+            "tiempo": 2
+        },
+        {
+            "origen": 9,
+            "destino": 10,
+            "tiempo": 2
+        },
+        {
+            "origen": 43,
+            "destino": 44,
+            "tiempo": 2
+        },
+        {
+            "origen": 235,
+            "destino": 236,
+            "tiempo": 2
+        },
+        {
+            "origen": 242,
+            "destino": 241,
+            "tiempo": 2
+        },
+        {
+            "origen": 141,
+            "destino": 142,
+            "tiempo": 2
+        },
+        {
+            "origen": 220,
+            "destino": 221,
+            "tiempo": 2
+        },
+        {
+            "origen": 186,
+            "destino": 185,
+            "tiempo": 2
+        },
+        {
+            "origen": 61,
+            "destino": 60,
+            "tiempo": 2
+        },
+        {
+            "origen": 78,
+            "destino": 79,
+            "tiempo": 2
+        },
+        {
+            "origen": 63,
+            "destino": 64,
+            "tiempo": 2
+        },
+        {
+            "origen": 261,
+            "destino": 260,
+            "tiempo": 2
+        },
+        {
+            "origen": 35,
+            "destino": 36,
+            "tiempo": 2
+        },
+        {
+            "origen": 80,
+            "destino": 79,
+            "tiempo": 2
+        },
+        {
+            "origen": 97,
+            "destino": 98,
+            "tiempo": 2
+        },
+        {
+            "origen": 105,
+            "destino": 106,
+            "tiempo": 2
+        },
+        {
+            "origen": 195,
+            "destino": 196,
+            "tiempo": 2
+        },
+        {
+            "origen": 84,
+            "destino": 83,
+            "tiempo": 2
+        },
+        {
+            "origen": 180,
+            "destino": 181,
+            "tiempo": 2
+        },
+        {
+            "origen": 115,
+            "destino": 114,
+            "tiempo": 2
+        },
+        {
+            "origen": 21,
+            "destino": 20,
+            "tiempo": 2
+        },
+        {
+            "origen": 253,
+            "destino": 252,
+            "tiempo": 2
+        },
+        {
+            "origen": 214,
+            "destino": 215,
+            "tiempo": 2
+        },
+        {
+            "origen": 174,
+            "destino": 175,
+            "tiempo": 2
+        },
+        {
+            "origen": 89,
+            "destino": 90,
+            "tiempo": 2
+        },
+        {
+            "origen": 55,
+            "destino": 54,
+            "tiempo": 2
+        },
+        {
+            "origen": 159,
+            "destino": 160,
+            "tiempo": 2
+        },
+        {
+            "origen": 193,
+            "destino": 192,
+            "tiempo": 2
+        },
+        {
+            "origen": 232,
+            "destino": 231,
+            "tiempo": 2
+        },
+        {
+            "origen": 249,
+            "destino": 250,
+            "tiempo": 2
+        },
+        {
+            "origen": 138,
+            "destino": 137,
+            "tiempo": 2
+        },
+        {
+            "origen": 217,
+            "destino": 216,
+            "tiempo": 2
+        },
+        {
+            "origen": 234,
+            "destino": 235,
+            "tiempo": 2
+        },
+        {
+            "origen": 75,
+            "destino": 74,
+            "tiempo": 2
+        },
+        {
+            "origen": 68,
+            "destino": 69,
+            "tiempo": 2
+        },
+        {
+            "origen": 191,
+            "destino": 192,
+            "tiempo": 2
+        },
+        {
+            "origen": 268,
+            "destino": 269,
+            "tiempo": 2
+        },
+        {
+            "origen": 117,
+            "destino": 116,
+            "tiempo": 2
+        },
+        {
+            "origen": 192,
+            "destino": 191,
+            "tiempo": 2
+        },
+        {
+            "origen": 91,
+            "destino": 92,
+            "tiempo": 2
+        },
+        {
+            "origen": 28,
+            "destino": 29,
+            "tiempo": 2
+        },
+        {
+            "origen": 260,
+            "destino": 261,
+            "tiempo": 2
+        },
+        {
+            "origen": 149,
+            "destino": 148,
+            "tiempo": 2
+        },
+        {
+            "origen": 166,
+            "destino": 167,
+            "tiempo": 2
+        },
+        {
+            "origen": 101,
+            "destino": 100,
+            "tiempo": 2
+        },
+        {
+            "origen": 7,
+            "destino": 6,
+            "tiempo": 2
+        },
+        {
+            "origen": 246,
+            "destino": 245,
+            "tiempo": 2
+        },
+        {
+            "origen": 239,
+            "destino": 240,
+            "tiempo": 2
+        },
+        {
+            "origen": 145,
+            "destino": 146,
+            "tiempo": 2
+        },
+        {
+            "origen": 224,
+            "destino": 225,
+            "tiempo": 2
+        },
+        {
+            "origen": 34,
+            "destino": 33,
+            "tiempo": 2
+        },
+        {
+            "origen": 26,
+            "destino": 25,
+            "tiempo": 2
+        },
+        {
+            "origen": 130,
+            "destino": 131,
+            "tiempo": 2
+        },
+        {
+            "origen": 218,
+            "destino": 217,
+            "tiempo": 2
+        },
+        {
+            "origen": 82,
+            "destino": 83,
+            "tiempo": 2
+        },
+        {
+            "origen": 203,
+            "destino": 202,
+            "tiempo": 2
+        }
+    ],
+    "transferencias": [
+        {
+            "origen": 102,
+            "destino": 9,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 220,
+            "destino": 20,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 119,
+            "destino": 102,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 173,
+            "destino": 102,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 249,
+            "destino": 247,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 72,
+            "destino": 113,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 113,
+            "destino": 72,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 102,
+            "destino": 119,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 247,
+            "destino": 249,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 9,
+            "destino": 102,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 20,
+            "destino": 75,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 75,
+            "destino": 20,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 102,
+            "destino": 173,
+            "tiempo_extra": 5
+        },
+        {
+            "origen": 20,
+            "destino": 220,
+            "tiempo_extra": 5
+        }
+    ]
+}
