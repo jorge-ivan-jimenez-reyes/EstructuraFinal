@@ -8,6 +8,8 @@
 #include <algorithm>
 #include <limits>
 
+using namespace std;
+
 // Mapa para almacenar el mapeo de ID a nombre de estación
 std::unordered_map<int, std::string> stationIDToName;
 
@@ -67,36 +69,78 @@ void loadGraphFromJSON(Graph& g, const std::string& filename) {
     }
 }
 
+// Función para mostrar el menú de opciones
+void showMenu() {
+    std::cout << "1. Find shortest route between two stations" << std::endl;
+    std::cout << "2. Display station information" << std::endl;
+    std::cout << "3. Display station connections" << std::endl;
+    std::cout << "4. Exit" << std::endl;
+    std::cout << "Enter your choice: ";
+}
+
 // Función principal
 int main() {
     int numStations = 272; // Ajusta según el número real de estaciones
     Graph metrobus(numStations);
 
-    // Carga el grafo y los nombres de las estaciones desde el archivo JSON
+    // Carga el grafo y los nombres de las estaciones desde el archivo JSON automáticamente
     loadGraphFromJSON(metrobus, "metrobus_data_corrected.json");
 
-    while (true) {
-        int sourceID, destinationID;
-        std::cout << "Enter source station ID: ";
-        std::cin >> sourceID;
-        std::cout << "Enter destination station ID: ";
-        std::cin >> destinationID;
+    bool exit = false;
+    while (!exit) {
+        showMenu();
+        int choice;
+        std::cin >> choice;
 
-        if (sourceID <= 0 || destinationID <= 0 || sourceID > numStations || destinationID > numStations) {
-            std::cerr << "Error: Invalid station IDs. Please try again." << std::endl;
-            continue;
+        switch (choice) {
+        case 1: {
+            int sourceID, destinationID;
+            std::cout << "Enter source station ID: ";
+            std::cin >> sourceID;
+            std::cout << "Enter destination station ID: ";
+            std::cin >> destinationID;
+
+            if (sourceID <= 0 || destinationID <= 0 || sourceID > numStations || destinationID > numStations) {
+                std::cerr << "Error: Invalid station IDs. Please try again." << std::endl;
+                continue;
+            }
+
+            std::vector<int> minDistances = metrobus.dijkstra(sourceID - 1); // Ejecuta Dijkstra desde la estación de origen
+            std::vector<int> prev = metrobus.getPrev(); // Obtiene el vector de predecesores
+
+            if (minDistances[destinationID - 1] == std::numeric_limits<int>::max()) {
+                std::cout << "No route found from " << stationIDToName[sourceID] << " to " << stationIDToName[destinationID] << "." << std::endl;
+            }
+            else {
+                std::cout << "Minimum distance from " << stationIDToName[sourceID] << " to " << stationIDToName[destinationID] << " is "
+                    << minDistances[destinationID - 1] << " units." << std::endl;
+                metrobus.printPathWithNames(prev, destinationID - 1, stationIDToName); // Imprime la ruta más corta con nombres de estaciones
+            }
+            break;
         }
+        case 2: {
+            int stationID;
+            std::cout << "Enter station ID: ";
+            std::cin >> stationID;
 
-        std::vector<int> minDistances = metrobus.dijkstra(sourceID - 1); // Ejecuta Dijkstra desde la estación de origen
-        std::vector<int> prev = metrobus.getPrev(); // Obtiene el vector de predecesores
-
-        if (minDistances[destinationID - 1] == std::numeric_limits<int>::max()) {
-            std::cout << "No route found from " << stationIDToName[sourceID] << " to " << stationIDToName[destinationID] << "." << std::endl;
+            metrobus.printStationInfo(stationID - 1, stationIDToName); // Imprime información de la estación
+            break;
         }
-        else {
-            std::cout << "Minimum distance from " << stationIDToName[sourceID] << " to " << stationIDToName[destinationID] << " is "
-                << minDistances[destinationID - 1] << " units." << std::endl;
-            metrobus.printPathWithNames(prev, destinationID - 1, stationIDToName); // Imprime la ruta más corta con nombres de estaciones
+        case 3: {
+            int stationID;
+            std::cout << "Enter station ID: ";
+            std::cin >> stationID;
+
+            metrobus.printConnections(stationID - 1, stationIDToName); // Imprime conexiones de la estación
+            break;
+        }
+        case 4:
+            exit = true;
+            std::cout << "Exiting program." << std::endl;
+            break;
+        default:
+            std::cerr << "Invalid choice. Please try again." << std::endl;
+            break;
         }
     }
 

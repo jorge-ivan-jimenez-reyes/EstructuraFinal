@@ -32,12 +32,12 @@
         },
         {
             "id": 7,
-            "nombre": "San Simón",
+            "nombre": "San Simon",
             "linea": 1
         },
         {
             "id": 8,
-            "nombre": "Manuel González",
+            "nombre": "Manuel Gonzalez",
             "linea": 1
         },
         {
@@ -52,12 +52,12 @@
         },
         {
             "id": 11,
-            "nombre": "Revolución",
+            "nombre": "Revolucion",
             "linea": 1
         },
         {
             "id": 12,
-            "nombre": "Plaza de la República",
+            "nombre": "Plaza de la Republica",
             "linea": 1
         },
         {
@@ -82,7 +82,7 @@
         },
         {
             "id": 17,
-            "nombre": "Álvaro Obregón",
+            "nombre": "Alvaro Obregon",
             "linea": 1
         },
         {
@@ -97,7 +97,7 @@
         },
         {
             "id": 20,
-            "nombre": "Nuevo León",
+            "nombre": "Nuevo Leon",
             "linea": 1
         },
         {
@@ -112,7 +112,7 @@
         },
         {
             "id": 23,
-            "nombre": "Nápoles",
+            "nombre": "Napoles",
             "linea": 1
         },
         {
@@ -132,12 +132,12 @@
         },
         {
             "id": 27,
-            "nombre": "Félix Cuevas",
+            "nombre": "Felix Cuevas",
             "linea": 1
         },
         {
             "id": 28,
-            "nombre": "Río Churubusco",
+            "nombre": "Rio Churubusco",
             "linea": 1
         },
         {
@@ -147,7 +147,7 @@
         },
         {
             "id": 30,
-            "nombre": "José Ma. Velasco",
+            "nombre": "Jose Ma Velasco",
             "linea": 1
         },
         {
@@ -172,7 +172,7 @@
         },
         {
             "id": 35,
-            "nombre": "Doctor Gálvez",
+            "nombre": "Doctor Galvez",
             "linea": 1
         },
         {
@@ -212,7 +212,7 @@
         },
         {
             "id": 43,
-            "nombre": "Santa Úrsula",
+            "nombre": "Santa Ursula",
             "linea": 1
         },
         {
@@ -237,17 +237,17 @@
         },
         {
             "id": 48,
-            "nombre": "General Antonio de León",
+            "nombre": "General Antonio de Leon",
             "linea": 2
         },
         {
             "id": 49,
-            "nombre": "Nicolás Bravo",
+            "nombre": "Nicolas Bravo",
             "linea": 2
         },
         {
             "id": 50,
-            "nombre": "Constitución de Apatzingán",
+            "nombre": "Constitucion de Apatzingan",
             "linea": 2
         },
         {
@@ -267,22 +267,22 @@
         },
         {
             "id": 54,
-            "nombre": "Río Frío",
+            "nombre": "Rio Frio",
             "linea": 2
         },
         {
             "id": 55,
-            "nombre": "Rojo Gómez",
+            "nombre": "Rojo Gomez",
             "linea": 2
         },
         {
             "id": 56,
-            "nombre": "Río Mayo",
+            "nombre": "Rio Mayo",
             "linea": 2
         },
         {
             "id": 57,
-            "nombre": "Río Tecolutla",
+            "nombre": "Rio Tecolutla",
             "linea": 2
         },
         {
@@ -327,12 +327,12 @@
         },
         {
             "id": 66,
-            "nombre": "Andrés Molina",
+            "nombre": "Andres Molina",
             "linea": 2
         },
         {
             "id": 67,
-            "nombre": "Las Américas",
+            "nombre": "Las Americas",
             "linea": 2
         },
         {
@@ -342,7 +342,7 @@
         },
         {
             "id": 69,
-            "nombre": "Álamos",
+            "nombre": "Alamos",
             "linea": 2
         },
         {
@@ -352,12 +352,12 @@
         },
         {
             "id": 71,
-            "nombre": "Doctor Vértiz",
+            "nombre": "Doctor Vertiz",
             "linea": 2
         },
         {
             "id": 72,
-            "nombre": "Etiopía",
+            "nombre": "Etiopia",
             "linea": 2
         },
         {
@@ -372,12 +372,12 @@
         },
         {
             "id": 75,
-            "nombre": "Nuevo León",
+            "nombre": "Nuevo Leon",
             "linea": 2
         },
         {
             "id": 76,
-            "nombre": "Escandón",
+            "nombre": "Escandon",
             "linea": 2
         },
         {
@@ -422,7 +422,7 @@
         },
         {
             "id": 85,
-            "nombre": "Júpiter",
+            "nombre": "Jupiter",
             "linea": 3
         },
         {
@@ -462,12 +462,12 @@
         },
         {
             "id": 93,
-            "nombre": "Cuitláhuac",
+            "nombre": "Cuitlahuac",
             "linea": 3
         },
         {
             "id": 94,
-            "nombre": "Héroe de Nacozari",
+            "nombre": "Heroe de Nacozari",
             "linea": 3
         },
         {
@@ -487,7 +487,7 @@
         },
         {
             "id": 98,
-            "nombre": "Tolnáhuac",
+            "nombre": "Tolnahuac",
             "linea": 3
         },
         {
@@ -497,7 +497,7 @@
         },
         {
             "id": 100,
-            "nombre": "Ricardo Flores Magón",
+            "nombre": "Ricardo Flores Magon",
             "linea": 3
         },
         {
@@ -522,7 +522,7 @@
         },
         {
             "id": 105,
-            "nombre": "Juárez",
+            "nombre": "Juarez",
             "linea": 3
         },
         {
@@ -532,12 +532,12 @@
         },
         {
             "id": 107,
-            "nombre": "Cuauhtémoc",
+            "nombre": "Cuauhtemoc",
             "linea": 3
         },
         {
             "id": 108,
-            "nombre": "Jardín Pushkin",
+            "nombre": "Jardin Pushkin",
             "linea": 3
         },
         {
@@ -547,7 +547,7 @@
         },
         {
             "id": 110,
-            "nombre": "Dr. Márquez",
+            "nombre": "Dr. Marquez",
             "linea": 3
         },
         {

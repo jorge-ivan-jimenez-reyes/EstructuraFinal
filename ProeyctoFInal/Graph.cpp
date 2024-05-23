@@ -79,3 +79,25 @@ void Graph::printPathWithNames(const std::vector<int>& prev, int dest, const std
     }
     std::cout << std::endl;
 }
+
+// Método para imprimir información de una estación
+void Graph::printStationInfo(int stationID, const std::unordered_map<int, std::string>& stationIDToName) const {
+    if (stationID < 0 || stationID >= numVertices) {
+        std::cerr << "Error: Invalid station ID." << std::endl;
+        return;
+    }
+    std::cout << "Station ID: " << stationID + 1 << std::endl;
+    std::cout << "Station Name: " << stationIDToName.at(stationID + 1) << std::endl;
+}
+
+// Método para imprimir las conexiones de una estación
+void Graph::printConnections(int stationID, const std::unordered_map<int, std::string>& stationIDToName) const {
+    if (stationID < 0 || stationID >= numVertices) {
+        std::cerr << "Error: Invalid station ID." << std::endl;
+        return;
+    }
+    std::cout << "Connections from " << stationIDToName.at(stationID + 1) << ":" << std::endl;
+    for (const auto& [neighbor, weight] : adjList[stationID]) {
+        std::cout << " - To " << stationIDToName.at(neighbor + 1) << " with weight " << weight << std::endl;
+    }
+}
