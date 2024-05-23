@@ -552,7 +552,7 @@
         },
         {
             "id": 111,
-            "nombre": "Centro Médico",
+            "nombre": "Centro Medico",
             "linea": 3
         },
         {
@@ -562,12 +562,12 @@
         },
         {
             "id": 113,
-            "nombre": "Etiopía. Plaza de la Transparencia",
+            "nombre": "Etiopia. Plaza de la Transparencia",
             "linea": 3
         },
         {
             "id": 114,
-            "nombre": "Luz Saviñón",
+            "nombre": "Luz Saviñon",
             "linea": 3
         },
         {
@@ -577,7 +577,7 @@
         },
         {
             "id": 116,
-            "nombre": "División del Norte",
+            "nombre": "Division del Norte",
             "linea": 3
         },
         {
@@ -597,7 +597,7 @@
         },
         {
             "id": 120,
-            "nombre": "Delegación Cuauhtémoc",
+            "nombre": "Delegacion Cuauhtemoc",
             "linea": 4
         },
         {
@@ -627,17 +627,17 @@
         },
         {
             "id": 126,
-            "nombre": "República de Chile",
+            "nombre": "Republica de Chile",
             "linea": 4
         },
         {
             "id": 127,
-            "nombre": "República de Argentina",
+            "nombre": "Republica de Argentina",
             "linea": 4
         },
         {
             "id": 128,
-            "nombre": "Mercado Abelardo L. Rodríguez",
+            "nombre": "Mercado Abelardo L. Rodriguez",
             "linea": 4
         },
         {
@@ -657,12 +657,12 @@
         },
         {
             "id": 132,
-            "nombre": "Archivo General de la Nación",
+            "nombre": "Archivo General de la Nacion",
             "linea": 4
         },
         {
             "id": 133,
-            "nombre": "San Lázaro",
+            "nombre": "San Lazaro",
             "linea": 4
         },
         {
@@ -717,12 +717,12 @@
         },
         {
             "id": 144,
-            "nombre": "Pino Suárez",
+            "nombre": "Pino Suarez",
             "linea": 4
         },
         {
             "id": 145,
-            "nombre": "Isabel La Católica",
+            "nombre": "Isabel La Catolica",
             "linea": 4
         },
         {
@@ -742,7 +742,7 @@
         },
         {
             "id": 149,
-            "nombre": "Juárez",
+            "nombre": "Juarez",
             "linea": 4
         },
         {
@@ -757,12 +757,12 @@
         },
         {
             "id": 152,
-            "nombre": "Glorieta Colón",
+            "nombre": "Glorieta Colon",
             "linea": 4
         },
         {
             "id": 153,
-            "nombre": "Plaza de la República",
+            "nombre": "Plaza de la Republica",
             "linea": 4
         },
         {
@@ -777,12 +777,12 @@
         },
         {
             "id": 156,
-            "nombre": "Río de los Remedios",
+            "nombre": "Rio de los Remedios",
             "linea": 5
         },
         {
             "id": 157,
-            "nombre": "Memorial New's Divine - 314",
+            "nombre": "Memorial Nes Divine - 314",
             "linea": 5
         },
         {
@@ -807,17 +807,17 @@
         },
         {
             "id": 162,
-            "nombre": "San Juan de Aragón",
+            "nombre": "San Juan de Aragon",
             "linea": 5
         },
         {
             "id": 163,
-            "nombre": "Río Guadalupe",
+            "nombre": "Rio Guadalupe",
             "linea": 5
         },
         {
             "id": 164,
-            "nombre": "Talismán",
+            "nombre": "Talisman",
             "linea": 5
         },
         {
@@ -832,12 +832,12 @@
         },
         {
             "id": 167,
-            "nombre": "Río Santa Coleta",
+            "nombre": "Rio Santa Coleta",
             "linea": 5
         },
         {
             "id": 168,
-            "nombre": "Río Consulado",
+            "nombre": "Rio Consulado",
             "linea": 5
         },
         {
@@ -857,12 +857,12 @@
         },
         {
             "id": 172,
-            "nombre": "Archivo General de la Nación",
+            "nombre": "Archivo General de la Nacion",
             "linea": 5
         },
         {
             "id": 173,
-            "nombre": "San Lázaro",
+            "nombre": "San Lazaro",
             "linea": 5
         },
         {
@@ -932,7 +932,7 @@
         },
         {
             "id": 187,
-            "nombre": "Escuadrón 201",
+            "nombre": "Escuadron 201",
             "linea": 5
         },
         {
@@ -1077,7 +1077,7 @@
         },
         {
             "id": 216,
-            "nombre": "Instituto del Petróleo",
+            "nombre": "Instituto del Petroleo",
             "linea": 6
         },
         {
@@ -1087,7 +1087,7 @@
         },
         {
             "id": 218,
-            "nombre": "Instituto Politécnico Nacional",
+            "nombre": "Instituto Politecnico Nacional",
             "linea": 6
         },
         {
@@ -1117,12 +1117,12 @@
         },
         {
             "id": 224,
-            "nombre": "Delegación Gustavo A. Madero",
+            "nombre": "Delegacion Gustavo A. Madero",
             "linea": 6
         },
         {
             "id": 225,
-            "nombre": "Martín Carrera",
+            "nombre": "Martin Carrera",
             "linea": 6
         },
         {
@@ -1132,7 +1132,7 @@
         },
         {
             "id": 227,
-            "nombre": "San Juan de Aragón",
+            "nombre": "San Juan de Aragon",
             "linea": 6
         },
         {
