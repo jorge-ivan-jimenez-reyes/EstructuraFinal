@@ -2,26 +2,37 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <unordered_set>
 #include <queue>
 #include <utility>
 #include <limits>
 #include <algorithm>
 
 // Constructor que inicializa la lista de adyacencia con el número de vértices
-Graph::Graph(int numVertices) : numVertices(numVertices) {
-    adjList.resize(numVertices);
-}
+Graph::Graph(int numVertices) : numVertices(numVertices), adjList(numVertices), edgeSet() {}
 
 // Método para añadir una arista bidireccional al grafo
 void Graph::addEdge(int src, int dest, int weight) {
-    adjList[src].emplace_back(dest, weight); // Añade arista de src a dest
-    adjList[dest].emplace_back(src, weight); // Añade arista de dest a src para asegurar bidireccionalidad
+    std::pair<int, int> edge1 = std::make_pair(src, dest);
+    std::pair<int, int> edge2 = std::make_pair(dest, src);
+    if (edgeSet.find(edge1) == edgeSet.end() && edgeSet.find(edge2) == edgeSet.end()) {
+        adjList[src].emplace_back(dest, weight); // Añade arista de src a dest
+        adjList[dest].emplace_back(src, weight); // Añade arista de dest a src para asegurar bidireccionalidad
+        edgeSet.insert(edge1); // Inserta la arista en el conjunto
+        edgeSet.insert(edge2); // Inserta la arista inversa en el conjunto
+    }
 }
 
 // Método para añadir una transferencia bidireccional al grafo
 void Graph::addTransfer(int src, int dest, int extraTime) {
-    adjList[src].emplace_back(dest, extraTime); // Añade transferencia de src a dest
-    adjList[dest].emplace_back(src, extraTime); // Añade transferencia de dest a src para asegurar bidireccionalidad
+    std::pair<int, int> edge1 = std::make_pair(src, dest);
+    std::pair<int, int> edge2 = std::make_pair(dest, src);
+    if (edgeSet.find(edge1) == edgeSet.end() && edgeSet.find(edge2) == edgeSet.end()) {
+        adjList[src].emplace_back(dest, extraTime); // Añade transferencia de src a dest
+        adjList[dest].emplace_back(src, extraTime); // Añade transferencia de dest a src para asegurar bidireccionalidad
+        edgeSet.insert(edge1); // Inserta la transferencia en el conjunto
+        edgeSet.insert(edge2); // Inserta la transferencia inversa en el conjunto
+    }
 }
 
 // Método que implementa el algoritmo de Dijkstra para encontrar el camino más corto desde src
@@ -78,7 +89,7 @@ void Graph::printPathWithNames(const std::vector<int>& prev, int dest, const std
         }
     }
     std::cout << std::endl;
-    std::cout << "Total travel time: " << totalTime << " units." << std::endl;
+    std::cout << "Total travel time: " << totalTime << " minutes." << std::endl;
 }
 
 // Método para imprimir información de una estación
