@@ -112,9 +112,10 @@ int main() {
                 std::cout << "No route found from " << stationIDToName[sourceID] << " to " << stationIDToName[destinationID] << "." << std::endl;
             }
             else {
+                int totalTime = minDistances[destinationID - 1];
                 std::cout << "Minimum distance from " << stationIDToName[sourceID] << " to " << stationIDToName[destinationID] << " is "
-                    << minDistances[destinationID - 1] << " units." << std::endl;
-                metrobus.printPathWithNames(prev, destinationID - 1, stationIDToName); // Imprime la ruta más corta con nombres de estaciones
+                    << totalTime << " minutes." << std::endl;
+                metrobus.printPathWithNames(prev, destinationID - 1, stationIDToName, totalTime); // Imprime la ruta más corta con nombres de estaciones y tiempo total
             }
             break;
         }

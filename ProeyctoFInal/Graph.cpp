@@ -57,8 +57,8 @@ const std::vector<int>& Graph::getPrev() const {
     return prev;
 }
 
-// Método para imprimir el camino más corto usando nombres de estaciones
-void Graph::printPathWithNames(const std::vector<int>& prev, int dest, const std::unordered_map<int, std::string>& stationIDToName) const {
+// Método para imprimir el camino más corto usando nombres de estaciones y tiempo total
+void Graph::printPathWithNames(const std::vector<int>& prev, int dest, const std::unordered_map<int, std::string>& stationIDToName, int totalTime) const {
     if (dest < 0 || dest >= prev.size() || prev[dest] == -1) { // Verifica si hay un camino válido
         std::cerr << "No route found to the destination." << std::endl;
         return;
@@ -78,6 +78,7 @@ void Graph::printPathWithNames(const std::vector<int>& prev, int dest, const std
         }
     }
     std::cout << std::endl;
+    std::cout << "Total travel time: " << totalTime << " units." << std::endl;
 }
 
 // Método para imprimir información de una estación
